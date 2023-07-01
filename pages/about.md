@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于我们
+title: about
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
@@ -8,5 +8,5 @@ tags: [Page]
 
  我们是青英会
 
-[//]: # (这里写内容)
+
  

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 近期活动
+title: gallery
 subtitle: 线下会议与vlog
 permalink: /gallery/
 gallery_path: "assets/img/pexels"
