@@ -1,19 +1,19 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
+baseurl: " "
+url: "https://uk-oyss.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+title: UK OYSS                                    # site's title
+description: "A website about UK Outstanding Young Scholars Society "      # used by search engines
+avatar: assets/img/triangle.png                         # 左上角logo
+favicon: assets/favicon.ico                             # tab小图标
 
 # Header and footer text
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-header_feature_image: assets/img/header/triangular.jpeg
+header_text: 英青会  # Change Blog header text
+header_feature_image: assets/img/header/triangular.jpeg #背景图
 header_feature_image_responsive: true
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  欢迎加入通过 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfU5ZGL6rfY0ZnVkw6RF8STIjcWk7G9sfniXWzuZufvlethjg/viewform?usp=sf_link">Form</a> or <a href="https://github.com/sylhare/Type-on-Strap">Email us</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
@@ -38,7 +38,7 @@ comments:
     issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num"
 
 # PORTFOLIO
