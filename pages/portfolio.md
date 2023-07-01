@@ -1,6 +1,6 @@
 --- 
 layout: page
-title : 未来展望
+title : portfolio
 permalink: /portfolio/
 subtitle: "" 
 feature-img: "assets/img/pexels/computer.jpeg"
