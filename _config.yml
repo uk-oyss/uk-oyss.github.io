@@ -9,7 +9,7 @@ avatar: assets/img/triangle.png                         # 左上角logo
 favicon: assets/favicon.ico                             # tab小图标
 
 # Header and footer text
-header_text: 英青会  # Change Blog header text
+header_text: 欢迎加入英青会  # Change Blog header text
 header_feature_image: assets/img/header/triangular.jpeg #背景图
 header_feature_image_responsive: true
 footer_text: >
