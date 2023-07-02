@@ -1,12 +1,12 @@
 --- 
 layout: page
-title : 近期活动
-permalink: /gallery/
-subtitle: 这里放置宣传照片和视频
-feature-img: "assets/img/pexels/computer.jpeg"
+title : 学术顾问
+permalink: /portfolio/
+subtitle: "Academic board"
+gallery_path: "assets/img/pexels"
 tags: [Page]
 ---
 
 
+{% include gallery.html gallery_path=page.gallery_path %}
 
-{% include portfolio.html %}
