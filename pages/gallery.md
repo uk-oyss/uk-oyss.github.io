@@ -2,7 +2,7 @@
 layout: page
 title: 学术顾问
 subtitle: "Academic board"
-permalink: /gallery/
+permalink: /portfolio/
 gallery_path: "assets/img/pexels"
 tags: [Page]
 ---
