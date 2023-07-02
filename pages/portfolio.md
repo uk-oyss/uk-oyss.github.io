@@ -1,8 +1,8 @@
 --- 
 layout: page
-title : 学术顾问
+title : 近期活动
 permalink: /portfolio/
-subtitle: "Academic board" 
+subtitle: 这里放置宣传照片和视频
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Page]
 ---

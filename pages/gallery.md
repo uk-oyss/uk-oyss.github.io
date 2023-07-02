@@ -1,13 +1,11 @@
 ---
 layout: page
-title: 近期活动
-subtitle: 线下会议与vlog
+title: 学术顾问
+subtitle: "Academic board"
 permalink: /gallery/
 gallery_path: "assets/img/pexels"
 tags: [Page]
 ---
-
-在这里放置宣传视频和图片
 
 
 {% include gallery.html gallery_path=page.gallery_path %}
