@@ -1,35 +1,36 @@
 {% if site.data.social.rss or site.theme_settings.rss %}
 <li>
     <a feed.xml href="{{ site.data.social.feed.path | default: 'feed.xml' | relative_url }}"
-       title="{{ site.data.language.str_rss_follow | default: '关注微信公众号' }}"
+       title="{{ site.data.language.str_rss_follow | default: 'Follow RSS feed' }}"
        target="_blank">
-        <img src="assets/img/Bottom/Wechatlogo.png" alt="">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
     </a>
 </li>
 {% endif %}
 
-{% comment %}尝试注释第二个icon{% endcomment %}
-
-{% comment %}{% for footer in site.data.icons %}{% endcomment %}
-    {% comment %}{% unless footer[1] == nil %}{% endcomment %}
-        {% comment %}{% assign brand = footer[0] %}{% endcomment %}
-        {% comment %}{% assign id = footer[1] %}{% endcomment %}
-        {% comment %}{% assign data = site.data.icons_builder[brand] %}{% endcomment %}
-        {% comment %}{% if data.icon == nil %}{% endcomment %}
-            {% comment %}{% assign icon = "fab fa-" | append: brand %}{% endcomment %}
-        {% comment %}{% else %}{% endcomment %}
-            {% comment %}{% assign icon = data.icon %}{% endcomment %}
-        {% comment %}{% endif %}{% endcomment %}
-        {% comment %}<li>{% endcomment %}
-            {% comment %}<a href="{{ data.pre | append: id | append: data.pos }}"{% endcomment %}
-               {% comment %}title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"{% endcomment %}
-               {% comment %}target="_blank"{% endcomment %}
-               {% comment %}rel="noopener">{% endcomment %}
-            {% comment %}<span class="fa-stack fa-lg">{% endcomment %}
-              {% comment %}<i class="fas fa-circle fa-stack-2x"></i>{% endcomment %}
-              {% comment %}<i class="{{ icon }} fa-stack-1x fa-inverse"></i>{% endcomment %}
-            {% comment %}</span>{% endcomment %}
-            {% comment %}</a>{% endcomment %}
-        {% comment %}</li>{% endcomment %}
-    {% comment %}{% endunless %}{% endcomment %}
-{% comment %}{% endfor %}{% endcomment %}
+{% for footer in site.data.icons %}
+    {% unless footer[1] == nil %}
+        {% assign brand = footer[0] %}
+        {% assign id = footer[1] %}
+        {% assign data = site.data.icons_builder[brand] %}
+        {% if data.icon == nil %}
+            {% assign icon = "fab fa-" | append: brand %}
+        {% else %}
+            {% assign icon = data.icon %}
+        {% endif %}
+        <li>
+            <a href="{{ data.pre | append: id | append: data.pos }}"
+               title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
+               target="_blank"
+               rel="noopener">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    {% endunless %}
+{% endfor %}
