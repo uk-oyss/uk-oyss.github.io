@@ -8,4 +8,4 @@ tags: [Page]
 ---
 
 
-{% include portfolio.html %}
+{% include gallery.html gallery_path=page.gallery_path %}

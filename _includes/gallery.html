@@ -7,22 +7,15 @@ html { overflow-y: scroll; }
 </style>
 
 <div id='masonry' class="grid">
-<div class="grid-sizer"></div>
-<div class="gutter-sizer"></div>
-{% for image in site.static_files %}
-  {% if image.path contains include.gallery_path %}
+    <div class="grid-sizer"></div>
+    <div class="gutter-sizer"></div>
+    {% for image in site.static_files %}
+    {% if image.path contains include.gallery_path %}
     {% unless image.path contains '.md' %}
-    <div class="grid-item">
-        <img src="{{ image.path | relative_url }}" alt="" class="grid-item" style="padding: 0;">
-        <div class="caption">
-            <h4>图片标题</h4>
-            <p>图片描述</p>
-            <a href="链接地址">更多信息</a>
-        </div>
-    </div>
+    <img src="{{ image.path | relative_url }}" alt="" class="grid-item" style="padding: 0;">
     {% endunless %}
-  {% endif %}
-{% endfor %}
+    {% endif %}
+    {% endfor %}
 </div>
 
 <script src="{{ '/assets/js/vendor/imagesloaded.pkgd.min.js' | relative_url }}" type="text/javascript"></script>
