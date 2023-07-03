@@ -12,11 +12,15 @@ layout: default
         @media screen and (max-width: 768px) {
             .call-out_img {
                 background-image: url('{{ image[0] | append: '-medium.' | append: image[1] | default: image}}');
+                background-size: cover; /* 背景图等比例缩放，完全覆盖容器 */
+                background-position: center center; /* 将背景图居中显示 */
             }
         }
         @media screen and (max-width: 576px) {
             .call-out_img {
                 background-image: url('{{ image[0] | append: '-small.' | append: image[1] }}');
+                background-size: cover; /* 背景图等比例缩放，完全覆盖容器 */
+                background-position: center center; /* 将背景图居中显示 */
             }
         }
         {% endif %}
