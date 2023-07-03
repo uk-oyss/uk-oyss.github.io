@@ -4,7 +4,7 @@ title: 董洪标
 feature-img: "assets/img/header/triangular.jpeg"
 img: "assets/img/portfolio/hongbiaodong_circle.jpg"
 date: 27 September 2015
-description: 英国皇家工程院院士
+description: 英国皇家工程院院士, EPSRC“创新金属加工博士培训中心”主任
 external_link: https://le.ac.uk/people/hongbiao-dong
 tags: [Lorem, Ipsum]
 ---
