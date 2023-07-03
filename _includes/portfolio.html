@@ -26,12 +26,21 @@
                     <i class="fas fa-search-plus fa-3x"></i>
                 </div>
             </div>
-            <img alt="陈十一" class="portfolio-image" src="{{ item.img | relative_url }}">
+            <a class="portfolio-image-link" href="{{ item.external_link }}" target="_blank">
+                <img alt="" class="portfolio-image" src="{{ item.img | relative_url }}">
+            </a>
             <div class="portfolio-description">
-                <h3 class="portfolio-title">{{ item.title }}</h3>
+                <h3 class="portfolio-title">
+                    {% if item.external_link %}
+                    <a href="{{ item.external_link }}" target="_blank">{{ item.title }}</a>
+                    {% else %}
+                    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {% endif %}
+                </h3>
                 <p class="portfolio-text">{{ item.description }}</p>
             </div>
         </a>
     </div>
     {% endfor %}
 </div>
+
