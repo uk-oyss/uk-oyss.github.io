@@ -4,6 +4,11 @@ layout: default
 
 <div class="home">
     <style scoped>
+        .call-out_img {
+            background-size: cover; /* 背景图等比例缩放，完全覆盖容器 */
+            background-position: center center; /* 将背景图居中显示 */
+        }
+
         {% assign image = site.header_feature_image | relative_url | split: '.' %}
         .call-out_img {
             background-image: url('{{ image | join: '.' }}');
@@ -11,16 +16,16 @@ layout: default
         {% if site.header_feature_image_responsive %}
         @media screen and (max-width: 768px) {
             .call-out_img {
-                {% comment %}background-image: url('{{ image[0] | append: '-medium.' | append: image[1] | default: image}}');{% endcomment %}
-                background-size: cover; /* 背景图等比例缩放，完全覆盖容器 */
-                background-position: center center; /* 将背景图居中显示 */
+                background-image: url('{{ image[0] | append: '-medium.' | append: image[1] | default: image}}');
+                /*background-size: cover; !* 背景图等比例缩放，完全覆盖容器 *!*/
+                /*background-position: center center; !* 将背景图居中显示 *!*/
             }
         }
         @media screen and (max-width: 576px) {
             .call-out_img {
-                {% comment %}background-image: url('{{ image[0] | append: '-small.' | append: image[1] }}');{% endcomment %}
-                background-size: cover; /* 背景图等比例缩放，完全覆盖容器 */
-                background-position: center center; /* 将背景图居中显示 */
+                background-image: url('{{ image[0] | append: '-small.' | append: image[1] }}');
+                /*background-size: cover; !* 背景图等比例缩放，完全覆盖容器 *!*/
+                /*background-position: center center; !* 将背景图居中显示 *!*/
             }
         }
         {% endif %}
