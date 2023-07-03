@@ -2,7 +2,7 @@
 layout: post
 title: 郭子建
 feature-img: "assets/img/header/triangular.jpeg"
-img: "assets/img/member/zijianguo.jpeg"
+img: "assets/img/portfolio/zijianguo.png"
 date: 27 September 2015
 description: 中国科学院院士，英国皇家化学会会士
 external_link: https://sklcc.nju.edu.cn/rygc/yjry/20210111/i185198.html
