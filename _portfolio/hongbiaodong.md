@@ -2,7 +2,7 @@
 layout: post
 title: 董洪标
 feature-img: "assets/img/header/triangular.jpeg"
-img: "assets/img/portfolio/hongbiaodong.png"
+img: "assets/img/portfolio/hongbiaodong_circle.jpg"
 date: 27 September 2015
 description: 英国皇家工程院院士
 external_link: https://le.ac.uk/people/hongbiao-dong

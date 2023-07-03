@@ -2,7 +2,7 @@
 layout: post
 title: 陈十一
 feature-img: "assets/img/header/triangular.jpeg"
-img: "assets/img/portfolio/shiyichen.png"
+img: "assets/img/portfolio/shiyichen_circle.jpg"
 date: 27 September 2015
 description: 中国科学院院士，发展中国家科学院院士，曾任北京大学工学院创院院长、北京大学副校长、南方科技大学第二任校长
 external_link: https://faculty.sustech.edu.cn/?tagid=chensy&iscss=1&snapid=1&orderby=date&go=1

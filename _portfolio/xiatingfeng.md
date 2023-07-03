@@ -2,7 +2,7 @@
 layout: post
 title: 冯夏庭
 feature-img: "assets/img/header/triangular.jpeg"
-img: "assets/img/portfolio/xiatingfeng.png"
+img: "assets/img/portfolio/xiatingfeng_circle.png"
 date: 27 September 2015
 description: 中国工程院院士，东北大学校长，国际地质工程联合会主席
 external_link: https://ysg.ckcest.cn/html/details/8124/index.html

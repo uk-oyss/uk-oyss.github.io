@@ -2,7 +2,7 @@
 layout: post
 title: Jonathan Seville
 feature-img: "assets/img/header/triangular.jpeg"
-img: "assets/img/portfolio/jonathanseville.png"
+img: "assets/img/portfolio/jonathanseville_circle.jpg"
 date: 27 September 2015
 description: 英国皇家工程院院士
 external_link: https://www.birmingham.ac.uk/staff/profiles/chemical-engineering/seville-jonathan.aspx
