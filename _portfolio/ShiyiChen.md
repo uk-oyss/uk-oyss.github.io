@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shiyi Chen
+title: 陈十一
 feature-img: "assets/img/portfolio/shiyichen.jpeg"
 img: "assets/img/portfolio/shiyichen.jpeg"
 date: 27 September 2015
