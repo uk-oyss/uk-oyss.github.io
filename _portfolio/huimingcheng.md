@@ -5,6 +5,7 @@ feature-img: "assets/img/header/triangular.jpeg"
 img: "assets/img/member/huimingcheng.jpeg"
 date: 27 September 2015
 description: 中国科学院院士，发展中国家科学院院士
+external_link: http://sourcedb.imr.cas.cn/zw/rck/yjy_imr/201311/t20131115_3978983.html
 tags: [Lorem, Ipsum]
 ---
 
