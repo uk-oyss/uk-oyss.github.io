@@ -4,7 +4,8 @@ title: 郭子建
 feature-img: "assets/img/header/triangular.jpeg"
 img: "assets/img/portfolio/zijianguo_circle.jpg"
 date: 27 September 2015
-description: 中国科学院院士，英国皇家化学会会士, 现任南京大学化学和生物医药创新研究院院长
+description: |
+  中国科学院院士<br>英国皇家化学会会士<br>现任南京大学化学和生物医药创新研究院院长
 external_link: https://sklcc.nju.edu.cn/rygc/yjry/20210111/i185198.html
 tags: [Lorem, Ipsum]
 ---
