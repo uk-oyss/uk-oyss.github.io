@@ -14,3 +14,5 @@ tags: [Post]
 {{ item.description }}
 
 {% endfor %}
+
+{% include portfolio.html %}
