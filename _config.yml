@@ -16,7 +16,7 @@ footer_text: >
   欢迎加入通过 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfU5ZGL6rfY0ZnVkw6RF8STIjcWk7G9sfniXWzuZufvlethjg/viewform?usp=sf_link">Form</a> or <a href="Mailto:oyssit2023@gmail.com">Email us</a>
 
 # Blog
-excerpt: false                                           # Or "truncate" (first 250 characters), "false" to disable
+excerpt: truncate                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
 color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
