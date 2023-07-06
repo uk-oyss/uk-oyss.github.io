@@ -6,13 +6,17 @@ feature-img: "assets/img/header/triangular.jpeg"
 tags: [Post]
 ---
 
-{% for item in site.portfolio %}
-#### [{{ item.title }}]({{ item.url | relative_url }})
+[//]: # ({% for item in site.portfolio %})
 
-![{{ item.title }}]({{ item.img | relative_url }})
+[//]: # (#### [{{ item.title }}]&#40;{{ item.url | relative_url }}&#41;)
 
-{{ item.description }}
+[//]: # ()
+[//]: # (![{{ item.title }}]&#40;{{ item.img | relative_url }}&#41;)
 
-{% endfor %}
+[//]: # ()
+[//]: # ({{ item.description }})
+
+[//]: # ()
+[//]: # ({% endfor %})
 
 {% include portfolio.html %}
