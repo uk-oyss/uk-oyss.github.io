@@ -3,13 +3,13 @@ baseurl: ""
 url: "https://uk-oyss.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
-title: UK OYSS                                    # site's title
+title: UK Outstanding Young Scholars Society                                    # site's title
 description: "A website about UK Outstanding Young Scholars Society "      # used by search engines
 avatar: assets/img/triangle.png                         # 左上角logo
 favicon: assets/favicon.ico                             # tab小图标
 
 # Header and footer text
-header_text: 欢迎加入英青会  # Change Blog header text
+header_text: 英国杰出青年人才协会  # Change Blog header text
 header_feature_image: assets/img/header/royalacademy1.jpg #背景图
 header_feature_image_responsive: true
 footer_text: >
