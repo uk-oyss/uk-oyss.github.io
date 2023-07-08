@@ -10,7 +10,7 @@ favicon: assets/favicon.ico                             # tab小图标
 
 # Header and footer text
 header_text: 英国杰出青年人才协会  # Change Blog header text
-header_feature_image: assets/img/header/royalacademy1.jpg #背景图
+header_feature_image: assets/img/header/royal.jpg #背景图
 header_feature_image_responsive: true
 footer_text: >
   欢迎加入通过 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfU5ZGL6rfY0ZnVkw6RF8STIjcWk7G9sfniXWzuZufvlethjg/viewform?usp=sf_link">Form</a> or <a href="Mailto:oyssit2023@gmail.com">Email us</a>

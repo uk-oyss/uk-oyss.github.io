@@ -34,19 +34,6 @@ layout: default
         <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
     </div>
 
-
-    <!-- 人物介绍代码段开始 -->
-    <div class="people-section">
-        {% for person in site.data.people %}
-            <div class="person">
-                <img src="{{ person.image }}" alt="{{ person.name }}">
-                <h3>{{ person.name }}</h3>
-                <p>{{ person.description }}</p>
-            </div>
-        {% endfor %}
-    </div>
-    <!-- 人物介绍代码段结束 -->
-
     {% include blog/blog.liquid %}
 
 </div>
