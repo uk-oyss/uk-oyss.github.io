@@ -1,0 +1,26 @@
+.contact-subtitle {
+  font-size: 120%; /* 调小字体 */
+  font-weight: bold; /* 加粗 */
+  border-bottom: 1px solid lightgray; /* 添加底部淡灰色的线 */
+  padding-bottom: 10px; /* 添加一些底部的间距，使得线条与文字之间有一些空间 */
+  margin-bottom: 20px; /* 增加底部间距，使得与下一个元素有一些距离 */
+}
+
+.form-group.row {
+  display: flex; /* 启用flex布局 */
+  //justify-content: space-between; /* 使得两个子元素之间有些空间 */
+}
+
+.form-group.row .form-control {
+  width: 25%; /* 使得每个输入框都有适当的大小，考虑到间距 */
+}
+
+#note {
+  height: 5em; /* 增加text area的高度 */
+}
+
+.btn-primary {
+  background-color: white; /* 设置背景颜色为白色 */
+  border-color: #49a3c0; /* 设置边框颜色为浅蓝色 */
+  color: #59a3d2; /* 设置字体颜色为浅蓝色 */
+}
