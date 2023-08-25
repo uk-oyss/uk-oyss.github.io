@@ -1,0 +1,40 @@
+<!--<div class="portfolio-grid">-->
+<!--    {% for item in site.member %}-->
+<!--    <div class="portfolio-cell">-->
+<!--        <a class="portfolio-link" data-keyboard="true" href="{{ item.url | relative_url }}">-->
+<!--            <div class="caption" title="{{ item.title }}">-->
+<!--                <div class="caption-content">-->
+<!--                    <i class="fas fa-search-plus fa-3x"></i>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <img alt="" class="portfolio-image" src="{{ item.img | relative_url }}">-->
+<!--            </div>-->
+<!--            <div class="portfolio-description">-->
+<!--                <h3 class="portfolio-title">-->
+<!--                    {% if item.external_link %}-->
+<!--                    <a href="{{ item.external_link }}" target="_blank">{{ item.title }}</a>-->
+<!--                    {% else %}-->
+<!--                    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>-->
+<!--                    {% endif %}-->
+<!--                </h3>-->
+<!--                <p class="portfolio-text">{{ item.description }}</p>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--    </div>-->
+<!--    {% endfor %}-->
+<!--</div>-->
+
+<div class="portfolio-grid">
+    {% for item in site.member %}
+    <div class="portfolio-cell">
+        <a href="{{ item.url | relative_url }}" title="{{ item.title }}">
+            <img alt="{{ item.title }}" class="portfolio-image" src="{{ item.img | relative_url }}">
+            <div class="portfolio-description">
+                <h3 class="portfolio-title">{{ item.title }}</h3>
+                <p class="portfolio-text">{{ item.description | split: '<br>' | first }}</p>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>

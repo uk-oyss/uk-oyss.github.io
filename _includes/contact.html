@@ -1,0 +1,36 @@
+<div class="contact-form">
+    <h1 class="contact-subtitle">联系我们</h1>
+    <form action="process_form.php" method="post" class="mt-4">
+        <div class="form-group">
+            <label for="lastname">姓:</label>
+            <input type="text" class="form-control" id="lastname" name="lastname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="firstname">名:</label>
+            <input type="text" class="form-control" id="firstname" name="firstname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">电话:</label>
+            <input type="tel" class="form-control" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" id="subject" name="subject" required>
+        </div>
+
+        <div class="form-group">
+            <label for="note">Note:</label>
+            <textarea class="form-control" id="note" name="note"></textarea>
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="Send">
+    </form>
+</div>

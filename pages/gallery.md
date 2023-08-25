@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 近期活动
-subtitle: 这里放置宣传照片和视频
+title: 合作伙伴
+subtitle: 我们的合作伙伴
 permalink: /gallery/
 gallery_path: " "
 tags: [Page]
