@@ -2,7 +2,6 @@
     <h1 class="contact-subtitle">联系我们</h1>
 
     <!-- 下载申请表链接 -->
-    <a href="/path_to_your_docx_file.docx" download>点击此处下载申请表</a>
 
     <form action="https://formspree.io/f/xoqodyzp" method="post" enctype="multipart/form-data" class="mt-4">
         <div class="form-group row">
@@ -31,12 +30,20 @@
             <textarea class="form-control" id="note" name="note"></textarea>
         </div>
 
-        <!-- 上传填写完成的申请表文件 -->
-        <div class="form-group">
-            <label for="completed_form">上传填写完成的申请表:</label>
-            <input type="file" id="completed_form" name="completed_form" accept=".doc, .docx">
-        </div>
+<!--        &lt;!&ndash; 上传填写完成的申请表文件链接 &ndash;&gt;-->
+<!--        <a href="/assets/file/oyssapplicationform.docx" download>下载会员申请表</a>-->
+<!--        <div class="form-group">-->
+<!--            <label for="completed_form">有申请意向可以填写完整申请表并</label>-->
+<!--            <a href="https://netorgft14426334-my.sharepoint.com/:f:/g/personal/info_oyss_org_uk/EjF99uR_leZDlpgI9kkjzz0Bm9V-TEXpMosYfdYIlQxISg">由此递交给我们</a>-->
+<!--        </div>-->
 
         <input type="submit" class="btn btn-primary" value="Send">
     </form>
+    <!-- 上传填写完成的申请表文件链接 -->
+    <a href="/assets/file/oyssapplicationform.docx" download>下载会员申请表</a>
+    <div class="form-group">
+        <label for="completed_form">有申请意向可以填写完整申请表并</label>
+        <a href="https://netorgft14426334-my.sharepoint.com/:f:/g/personal/info_oyss_org_uk/EjF99uR_leZDlpgI9kkjzz0Bm9V-TEXpMosYfdYIlQxISg">由此递交给我们</a>
+    </div>
+
 </div>
