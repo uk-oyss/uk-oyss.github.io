@@ -1,6 +1,6 @@
 --- 
 layout: page
-title : 协会成员
+title : 组织成员
 permalink: /member/
 subtitle: "Association member"
 feature-img: "assets/img/header/triangular.jpeg"
