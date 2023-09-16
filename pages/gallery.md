@@ -4,6 +4,7 @@ title: 合作伙伴
 subtitle: 我们的合作伙伴
 permalink: /gallery/
 gallery_path: " "
+hide: true
 tags: [Page]
 ---
 
