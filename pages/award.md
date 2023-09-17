@@ -3,11 +3,21 @@ layout: page
 title : 杰出青年奖
 permalink: /award/
 subtitle: "Outstanding Young Persons Award"
-feature-img: "assets/img/header/triangular.jpeg"
+feature-img: "assets/img/header/awardchar.jpg"
 tags: [Page]
 ---
 
+<style>
+    .activity-img {
+        float: right;
+        margin: 10px;
+        width: 720px; /* 您可以根据需要调整这个值 */
+    }
+
+</style>
+
 ## 杰出青年奖
+<img src="{{ "assets/img/feature-img/award.png" | relative_url }}" class="activity-img">
 全球化浪潮已经来临，国际化教育成为当今青年的必需品。在这个充满挑战和机遇的时代，杰青会致力于支持和鼓励年轻学者，帮助他们培养全球视野、跨文化沟通、多元角度思考等关键能力，以更好地为科学和社会解决问题、创造价值。杰出青年奖旨发现培养卓越的年轻科研人才，并帮助他们在学术和职业生涯中取得更大的成就。
 杰出青年奖将由院士专家组成的评选委员会进行评选。首次杰出青年奖的奖金为一万英镑，杰青会的会员可以申请或被推荐参加评选。杰出青年奖将：
 鼓励卓越的年轻科研人才，激发他们的学术热情和创新潜力。
