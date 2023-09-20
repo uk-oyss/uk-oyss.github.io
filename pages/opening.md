@@ -32,7 +32,7 @@ tags: [Page]
     }
 </style>
 
-<h2 class="centered-title">活动流程计划</h2>
+<h2 class="centered-title">开幕仪式流程</h2>
 
 <p class="event-time">活动时间: 2023年11月27日</p>
 <p class="event-location">活动地点: Shard，London</p>
