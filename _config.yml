@@ -5,8 +5,8 @@ url: "https://uk-oyss.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 title: UK Outstanding Young Scholars Society                                    # site's title
 description: "A website about UK Outstanding Young Scholars Society "      # used by search engines
-avatar: assets/img/header/duihuiheibaismall.jpg                        # 左上角logo
-favicon: assets/img/header/bitbug_favicon.ico                             # tab小图标
+avatar: assets/img/header/newdunhui.jpg                        # 左上角logo
+favicon: assets/img/header/newdunhui.ico                             # tab小图标
 
 # Header and footer text
 header_text: 英国杰出青年人才协会  # Change Blog header text

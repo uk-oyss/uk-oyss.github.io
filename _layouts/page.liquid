@@ -29,7 +29,7 @@ layout: default
 
 
   <!-- Tag list for portfolio -->
-  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
-  {% include default/tags_list.liquid tags=tag_list %}
+  {% comment %}{% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}{% endcomment %}
+  {% comment %}{% include default/tags_list.liquid tags=tag_list %}{% endcomment %}
 
 </article>

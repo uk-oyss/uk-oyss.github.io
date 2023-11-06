@@ -7,7 +7,6 @@ feature-img: "assets/img/header/triangular.jpeg"
 tags: [Page]
 ---
 
-![ceremony]({{ "assets/img/feature-img/opening2.png" | relative_url }}){:class="full-width-image"}
 
 <style>
     .event-section {
@@ -69,3 +68,5 @@ tags: [Page]
         <li class="event-item">为学者们提供轻松愉快的社交活动，促进友谊与合作</li>
     </ul>
 </div>
+
+![ceremony]({{ "assets/img/feature-img/opening2.png" | relative_url }}){:class="full-width-image"}
