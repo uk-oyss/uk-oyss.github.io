@@ -98,10 +98,16 @@ tags: [Page]
     <div class="clearfix"></div>
 </div>
 
-## 学术荟
-活动目的：鼓励博士生发布自己的学术成果，扩大影响力。
-内容形式：利用新媒体在线发表博士生的学术成果，扩大社会影响力。
-活动特点：相对于传统的学术期刊，学术荟有更快的发布周期和更广泛的受众，旨在提高学术成果的流通速度和影响力。
+<div class="activity-section">
+    <h2 class="activity-title">学术荟</h2>
+    <h3 class="activity-subtitle">活动目的：</h3>
+    <p class="activity-content">鼓励博士生发布自己的学术成果，扩大影响力。</p>
+    <h3 class="activity-subtitle">内容形式：</h3>
+    <p class="activity-content">利用新媒体在线发表博士生的学术成果，扩大社会影响力。</p>
+    <h3 class="activity-subtitle">活动特点：</h3>
+    <p class="activity-content">相对于传统的学术期刊，学术荟有更快的发布周期和更广泛的受众，旨在提高学术成果的流通速度和影响力。</p>
+    <div class="clearfix"></div>
+</div>
 
 协会每个活动都围绕协会的宗旨，为全英的博士生群体提供学术、技术和职业上的支持与帮助。与此同时，协会鼓励多样化学科博士人群，欢迎不同学科背景的博士生参与，促进跨学科交流与合作。除学术活动外，协会也组织其他活动，如社会实践、文体比赛等。同时，协会着力扩大规模，加强与其他博士及以上人才团体的合作和项目对接，最好地服务博士同学们。
 
