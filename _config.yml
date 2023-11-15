@@ -3,7 +3,7 @@ baseurl: ""
 url: "https://uk-oyss.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
-title: UK Outstanding Young Scholars Society                                    # site's title
+title: Outstanding Young Scholars Society UK                                   # site's title
 description: "A website about UK Outstanding Young Scholars Society "      # used by search engines
 avatar: assets/img/header/newdunhui.jpg                        # 左上角logo
 favicon: assets/img/header/newdunhui.ico                             # tab小图标
