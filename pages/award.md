@@ -1,6 +1,6 @@
 --- 
 layout: page
-title : 奖项与基金
+title : 青年基金
 permalink: /award/
 subtitle: "Outstanding Young Persons Award"
 feature-img: "assets/img/header/awardchar.jpg"
