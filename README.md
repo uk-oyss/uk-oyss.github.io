@@ -6,7 +6,6 @@
 
 [![主页图片待定]()
 
-## Association Description
 
 ## Development - Using jekyll by Rugy language 
 ### 安装Ruby
