@@ -60,7 +60,7 @@ tags: [Page]
 </div>
 
 <div class="activity-section">
-    <h2 class="activity-title">“博士桥”回国参访</h2>
+    <h2 class="activity-title">“归国行”回国参访</h2>
     <img src="{{ "assets/img/activity/boshiqiao.jpg" | relative_url }}" class="activity-img">
     <h3 class="activity-subtitle">活动目的：</h3>
     <p class="activity-content">加强海内外的学术交流，为博士生提供更广泛的发展机会。</p>
