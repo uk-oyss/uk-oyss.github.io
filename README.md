@@ -1,43 +1,36 @@
-# 青英会 UK-OYSS 🎨
+# Mundana - Free Bootstrap HTML Blogging Template
 
-[![Build](https://github.com/sylhare/Type-on-Strap/actions/workflows/jekyll-build.yml/badge.svg)](https://github.com/sylhare/Type-on-Strap/actions/workflows/jekyll-build.yml)
-[![Gem Version](https://badge.fury.io/rb/type-on-strap.svg)](https://badge.fury.io/rb/type-on-strap)
-[![Docker Pulls](https://img.shields.io/docker/pulls/sylhare/type-on-strap)](https://hub.docker.com/r/sylhare/type-on-strap)
+Free HTML Bootstrap Blogging Template by [Sal](https://www.wowthemes.net).
 
-[![主页图片待定]()
+[Live Demo](https://wowthemesnet.github.io/template-mundana-bootstrap-html/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/template-mundana-bootstrap-html/archive/master.zip)
 
+[![screenshot](assets/img/screenshot-mundana.png)](https://wowthemesnet.github.io/template-mundana-bootstrap-html/)
 
-## Development - Using jekyll by Rugy language 
-### 安装Ruby
-[RubyInstaller](https://rubyinstaller.org/downloads/)
+## Getting Started
 
-### 安装Jekyll
-```shell
-jekyll new "xxx"
-cd "xxx"
-jekyll serve
-```
+* [Theme Details](https://www.wowthemes.net/mundana-free-html-bootstrap-template/)
+* [Documentation](https://wowthemesnet.github.io/template-mundana-bootstrap-html/docs.html).
 
-1. Clone the [OYSS](https://github.com/uk-oyss/uk-oyss.github.io.git): `https://github.com/uk-oyss/uk-oyss.github.io.git`
-2. Install [Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`, check [#1](https://github.com/Sylhare/Type-on-Strap/issues/1) if you have a problem.
-3. Install the theme's dependencies: `bundle install`
-4. Customize the theme
-	- GitHub Page: [update `_config.yml`](#site-configuration)
-5. Run the Jekyll server: `bundle exec jekyll serve`
+## Built With
 
-### As a github page 📋
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [Gulp](https://gulpjs.com/)
+* [SASS](https://sass-lang.com/)
 
-1. Clone the [OYSS](https://github.com/uk-oyss/uk-oyss.github.io.git): `https://github.com/uk-oyss/uk-oyss.github.io.git`
-2. Install [Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`, check [#1](https://github.com/Sylhare/Type-on-Strap/issues/1) if you have a problem.
-3. Install the theme's dependencies: `bundle install`
-4. Customize the theme
-	- GitHub Page: [update `_config.yml`](#site-configuration)
-5. Run the Jekyll server: `bundle exec jekyll serve`
+## Copyright
 
-## Preview 预览
-http://127.0.0.1:4000/
+Copyright (C) 2019 WowThemes.net.
 
-## Quick Links
-* [See our website!](https://www.oyss.org.uk/)
+Designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license. 
 
+<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
+## Contribute
+
+Let's make this even better!
+
+- [Clone the repo](https://github.com/wowthemesnet/template-mundana-bootstrap-html.git).
+- Create a branch off of master and give it a meaningful name (e.g. my-new-feature).
+- Open a pull request on GitHub and describe the feature or fix.
+
+Thank you for your support!

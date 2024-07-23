@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon.ico">
+    <link rel="icon" type="image/png" href="./assets/img/newdunhui.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>英国杰出青年人才协会- OYSS</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link href="./assets/css/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <style>
+        .slick-prev, .slick-next {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.75;
+            transition: opacity 0.2s ease;
+        }
+
+        .slick-prev:hover, .slick-next:hover {
+            opacity: 1;
+        }
+
+        .slick-prev {
+            left: 10px;
+            z-index: 1000;
+        }
+
+        .slick-next {
+            right: 10px;
+            z-index: 1000;
+        }
+
+        .slick-prev:before, .slick-next:before {
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            font-size: 24px;
+        }
+
+        .slick-prev:before {
+            content: '\f104';  /* FontAwesome icon for left arrow */
+        }
+
+        .slick-next:before {
+            content: '\f105';  /* FontAwesome icon for right arrow */
+        }
+
+        .slick-slide {
+            position: relative;
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 1000;
+        }
+
+        .slick-dots li {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!--------------------------------------
+NAVBAR
+--------------------------------------->
+<nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+<div class="container">
+	<a class="navbar-brand" href="./index.html"><img height="50" width="55" src="assets/img/newdunhui.jpg"><strong>英国杰出青年人才协会</strong></a>
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarColor02" style="">
+		<ul class="navbar-nav mr-auto d-flex align-items-center">
+			<li class="nav-item hander_nav_li">
+				<a class="nav-link" href="./aboutus.html">关于杰青会 </a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					我与杰青会
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="./zuzhijiagou.html">组织架构</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="./join-membership.html">成为执委</a>
+					<a class="dropdown-item" href="./join.html">成为会员</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" aria-haspopup="true" aria-expanded="false">
+					观往知新
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="./article.html">杰青奖</a>
+					<a class="dropdown-item" href="./article-xiajiguiguoxing.html">归国行</a>
+					<a class="dropdown-item" href="./chuangjijin.html">创基金</a>
+					<a class="dropdown-item" href="./category-bigtalk1.html">Big Talk</a>
+					<a class="dropdown-item" href="./academic-teaching1.html">第一份教职</a>
+					<a class="dropdown-item" href="./academic-professor1.html">博后到教授</a>
+					<a class="dropdown-item" href="./chuangye.html">学界之外</a>
+					<a class="dropdown-item" href="./join-membership.html">合作活动</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./index.html">搜索更多</a>
+			</li>
+		</ul>
+		<ul class="navbar-nav ml-auto d-flex align-items-center">
+			<li class="nav-item highlight">
+				<a class="nav-link" href="./index.html">Sign in</a>
+			</li>
+		</ul>
+	</div>
+
+
+</div>
+</nav>
+<!-- End Navbar -->
+
+<!--------------------------------------
+Main
+--------------------------------------->
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-8">
+            <h5 class="font-weight-bold spanborder"><span>我的第一份教职</span></h5>
+            <div class="card border-0 mb-5 box-shadow">
+                <div style="background-image: url(./assets/img/academic/teaching_post/teaching1.png); height: 980px; background-size: cover; background-repeat: no-repeat;"></div>
+                <div class="card-body">
+                    <h2 class="card-title font-weight-bold">活动回顾 | 《我的第一份教职》系列讲座第一期——对话李云鹏 关宇教授</h2>
+                    <p class="card-text">
+                        6月8日，<strong>第一期《我的第一份教职》</strong>讲座成功举办。本次讲座旨在为刚刚踏上学术道路的青年学者和正在寻找教职的博士生提供指导和建议，帮助大家更好地准备并成功迈入学术界。
+                    </p>
+                    <h3 class="card-title font-weight-bold">嘉宾分享</h3>
+                    <p class="card-text">
+                        两位杰出的学者——<strong>萨里大学的李云鹏副教授</strong>和<strong>华威大学的关宇副教授</strong>，与大家分享了他们在学术道路上的宝贵经验和心得。他们将详细讲述在获得第一份教职过程中所面临的挑战，在众多竞争者中脱颖而出的秘诀，以及在进入教职后迅速适应并在学术环境中稳步前进的策略。讲座将由萨里大学的陈雄杰博士主持。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+                <div class="col-md-4">
+            <div class="sticky-top">
+                <h5 class="font-weight-bold spanborder"><span>我的第一份教职</span></h5>
+                <ol class="list-featured">
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./academic-teaching1.html.html" class="text-dark">《我的第一份教职》系列讲座第一期——对话李云鹏 关宇 教授</a>
+                    </h6>
+                    <p class="text-muted">
+                         2024年6月8日，第一期《我的第一份教职》讲座成功举办。本次讲座旨在为刚刚踏上学术道路的青年学者和正在寻找教职的博士生提供指导和建议，帮助大家更好地准备并成功迈入学术界。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./academic-teaching2.html.html" class="text-dark">《我的第一份教职》系列讲座 第二期——对话顾昊天 刘先敏教授</a>
+                    </h6>
+                    <p class="text-muted">
+                         2024年6月22日，第二期《我的第一份教职》讲座成功举办。本系列讲座旨在为刚刚踏上学术道路的青年学者和正在寻找教职的博士生提供指导和建议，帮助大家更好地准备并成功迈入学术界。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./academic-teaching3.html.html" class="text-dark">《我的第一份教职》系列讲座 第三期——对话董晓文 赵星宇教授</a>
+                    </h6>
+                    <p class="text-muted">
+                         2024年7月13日，第三期《我的第一份教职》讲座即将举办。本系列讲座旨在为刚刚踏上学术道路的青年学者和正在寻找教职的博士生提供指导和建议，帮助大家更好地准备并成功迈入学术界。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="" class="text-dark">《我的第一份教职》系列讲座 第四期敬请期待</a>
+                    </h6>
+                    <p class="text-muted">
+
+                    </p>
+                    </span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-4 pb-4">
+    <div class="border p-5 bg-lightblue">
+        <div class="row justify-content-between">
+            <div class="col-md-6">
+                <h5 class="font-weight-bold secondfont">加入我们</h5>
+                加入会员即刻获取最新活动内容！
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <button type="submit" class="btn btn-success btn-block">联系我们</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->
+
+<!--------------------------------------
+FOOTER
+--------------------------------------->
+<div class="container mt-5" style="margin-bottom: -50px">
+	<section class="container-wrap alternate-color" style="background-image: url(assets/img/bg.png); position: relative; background-repeat: no-repeat; background-attachment: scroll; background-size: cover; padding-top: 40px; padding-bottom: 40px;">
+		<div class="section-container container">
+			<div class="vc_row wpb_row vc_row-fluid row vc_row-has-fill">
+				<div class="wpb_column vc_column_container vc_col-sm-12">
+					<div class="vc_column-inner" style="margin-left: 45px">
+						<div class="wpb_wrapper">
+							<div class="kleo_text_column wpb_text_column wpb_content_element">
+								<div class="wpb_wrapper">
+									<h5 class="font-weight-bold ">合作伙伴</h5>
+								</div>
+							</div>
+							<div class="vc_row wpb_row vc_inner vc_row-fluid justify-content-center" style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 310px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919376101 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="http://www.ciic.com.cn/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="232" height="72" src="assets/img/logo/zhongzhi.png" class="vc_single_image-img attachment-full" alt="" title="中智集团">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 240px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919362236 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="https://www.sparkxmarketing.com/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="220" height="82" src="assets/img/logo/sparkx.png" class="vc_single_image-img attachment-full" alt="" title="SPARKX">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919388155 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/zhongying.jpg" class="vc_single_image-img attachment-full" alt="" title="中英科技峰会">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919402009 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="http://www.bici.org/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/beijing.png" class="vc_single_image-img attachment-full" alt="" title="BICI">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1593811100001 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/quanyingxuelian.png" class="vc_single_image-img attachment-full" alt="" title="全英学联">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1593811669126" style="display: flex; flex-wrap: wrap;">
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+
+
+
+
+<div class="container mt-5">
+	<footer class="bg-dark text-white p-4 small">
+		<div class="row no-gutters">
+			<div class="col-md-2">
+				<h6>微信</h6>
+				<img src="assets/img/wechat/QRcode.png" alt="WeChat QR Code" style="max-width:120px;">
+			</div>
+			<div class="col-md-2">
+				<h6>微信公众号</h6>
+				<img src="assets/img/wechat/wechatqr.jpg" alt="WeChat Public QR Code" style="max-width:120px;">
+			</div>
+			<div class="col-md-4">
+				<h6>联系方式</h6>
+				<p><strong>英国杰出青年人才协会</strong><br>
+					电子邮箱：info@oyss.org.uk<br>
+					官方网站：www.oyss.org.uk<br>
+					官方微信：OYSSUK<br>
+
+			</div>
+			<div class="col-md-4">
+				<h6>Contact Us</h6>
+				<p><strong>OYSS</strong><br>
+					Email：info@oyss.org.uk<br>
+					Official Website:www.oyss.org.uk<br>
+					Official WeChat:OYSSUK<br>
+
+			</div>
+		</div>
+		<div class="row mt-4 text-center">
+			<div class="col-12">
+				<p>Copyright &copy;OYSS</p>
+				<p>Managed by 英国杰出青年人才协会</p>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<style>
+	/*body, html {*/
+	/*	margin: 0;*/
+	/*	padding: 0;*/
+	/*	width: 100%;*/
+	/*}*/
+	footer {
+		background-color: #000;
+		color: #fff;
+		width: 100%;
+		padding: 20px 0;
+	}
+	footer h6 {
+		color: #fff;
+	}
+	footer img {
+		background-color: #fff; /* If you need to make QR code background white */
+	}
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+	.row.no-gutters {
+		margin: 0;
+	}
+</style>
+
+<!-- End Footer -->
+
+<!--------------------------------------
+JAVASCRIPTS
+--------------------------------------->
+<script src="./assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/functions.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var $carousel = $('.image-carousel');
+        $carousel.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            var total = slick.slideCount;
+            $('.slick-dots').html('<li>' + i + '/' + total + '</li>');
+        });
+        $carousel.slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>'
+        });
+    });
+</script>
+</body>
+</html>

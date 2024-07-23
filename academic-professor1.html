@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon.ico">
+    <link rel="icon" type="image/png" href="./assets/img/newdunhui.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>英国杰出青年人才协会- OYSS</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link href="./assets/css/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <style>
+        .slick-prev, .slick-next {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.75;
+            transition: opacity 0.2s ease;
+        }
+
+        .slick-prev:hover, .slick-next:hover {
+            opacity: 1;
+        }
+
+        .slick-prev {
+            left: 10px;
+            z-index: 1000;
+        }
+
+        .slick-next {
+            right: 10px;
+            z-index: 1000;
+        }
+
+        .slick-prev:before, .slick-next:before {
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            font-size: 24px;
+        }
+
+        .slick-prev:before {
+            content: '\f104';  /* FontAwesome icon for left arrow */
+        }
+
+        .slick-next:before {
+            content: '\f105';  /* FontAwesome icon for right arrow */
+        }
+
+        .slick-slide {
+            position: relative;
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 1000;
+        }
+
+        .slick-dots li {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!--------------------------------------
+NAVBAR
+--------------------------------------->
+<nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+<div class="container">
+	<a class="navbar-brand" href="./index.html"><img height="50" width="55" src="assets/img/newdunhui.jpg"><strong>英国杰出青年人才协会</strong></a>
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarColor02" style="">
+		<ul class="navbar-nav mr-auto d-flex align-items-center">
+			<li class="nav-item hander_nav_li">
+				<a class="nav-link" href="./aboutus.html">关于杰青会 </a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					我与杰青会
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="./zuzhijiagou.html">组织架构</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="./join-membership.html">成为执委</a>
+					<a class="dropdown-item" href="./join.html">成为会员</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" aria-haspopup="true" aria-expanded="false">
+					观往知新
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="./article.html">杰青奖</a>
+					<a class="dropdown-item" href="./article-xiajiguiguoxing.html">归国行</a>
+					<a class="dropdown-item" href="./chuangjijin.html">创基金</a>
+					<a class="dropdown-item" href="./category-bigtalk1.html">Big Talk</a>
+					<a class="dropdown-item" href="./academic-teaching1.html">第一份教职</a>
+					<a class="dropdown-item" href="./academic-professor1.html">博后到教授</a>
+					<a class="dropdown-item" href="./chuangye.html">学界之外</a>
+					<a class="dropdown-item" href="./join-membership.html">合作活动</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./index.html">搜索更多</a>
+			</li>
+		</ul>
+		<ul class="navbar-nav ml-auto d-flex align-items-center">
+			<li class="nav-item highlight">
+				<a class="nav-link" href="./index.html">Sign in</a>
+			</li>
+		</ul>
+	</div>
+
+
+</div>
+</nav>
+<!-- End Navbar -->
+
+<!--------------------------------------
+Main
+--------------------------------------->
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-8">
+            <h5 class="font-weight-bold spanborder"><span>从博后到教授</span></h5>
+            <div class="card border-0 mb-5 box-shadow">
+                <div style="background-image: url(./assets/img/academic/professor/img.png);height:400px;background-size:cover;background-position:center"></div>
+                <div class="card-body">
+                    <h2 class="card-title font-weight-bold">活动回顾 | 杰青会海外优青经验分享讲座</h2>
+                    <p class="card-text">
+                        国家自然科学基金优秀青年科学基金（海外）项目（以下简称“海外优青”项目），旨在吸引和鼓励海外优秀青年人才回国（来华）工作，备受海外广大博士后与青年学者的关注。为贯彻促进交流合作，实现支持职业发展的宗旨，杰青会于2024年2月24日和3月2日举办了两场海外优青经验分享线上讲座。我们很荣幸地邀请到了四位杰出的“海外优青”项目获得者——南京医科大学的陈连民教授、上海交通大学的杲祥文教授、广东工业大学的李贤辉教授、华南理工大学的申志超教授与大家分享、交流。杰青会执委何之韵博士主持了两场讲座。
+                    </p>
+                </div>
+
+                <div style="background-image: url(./assets/img/academic/professor/img_1.png);height:400px;background-size:cover;background-position:center"></div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【2月24日 第一场】</h3>
+                    <ul style="text-align:center; font-size: 16px; padding-left: 0px; margin-bottom: 40px;">
+                    <p>嘉宾：</p>
+                    <p>南京医科大学——陈连民教授</p>
+                    <p>上海交通大学——杲祥文教授</p>
+                    <p>研究领域：医学、材料科学（电池）</p>
+                    </ul>
+                </div>
+
+                <div style="background-image: url(./assets/img/academic/professor/img_2.png);height:400px;background-size:cover;background-position:center"></div>
+
+                <p> </p>
+
+                <div style="background-image: url(./assets/img/academic/professor/img_3.png);height:400px;background-size:cover;background-position:center"></div>
+
+                 <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【陈连民教授分享】</h3>
+                    <p>陈连民教授开门见山地提出了三点建议。首先，撰写申请书时，应使用通俗、简明的语言，清晰地阐述已完成的工作和将要进行的研究。特别是在医学等领域，细分方向众多，则要更加注意，避免过于专业的用词，以防因为细分方向壁垒等问题，影响评审结果。第二，总结研究工作和成果时，申请人应对文章的贡献保持相对客观的评价，尽量减少使用“first time”、“very exciting”、“novel”等词语刻意强调一些所谓的重大发现，以降低与评审意见相左的风险。第三，考虑到海外优青项目设立的宗旨，在考虑申请时，申请者应思考自己的研究领域是否符合当前国家战略的需求，尤其是一些“卡脖子”或急需发展的领域。如果是非重点发展项目或国内目前的发展在世界上较为领先的领域，陈连民教授则建议在申请中突显自己的研究如何为国家带来正向助力。</p>
+                </div>
+
+                <div style="background-image: url(./assets/img/academic/professor/img_4.png);height:400px;background-size:cover;background-position:center"></div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【杲祥文教授分享】</h3>
+                    <p>在撰写海外优青申请书时，杲祥文教授认为首先需要考虑从哪个方向进行申报，因为不同方向有不同的评审专家，申请人需要了解自己的研究更契合哪一个方向。第二，申请时需要提前与学校联系，了解其在研究方向上的优势。第三，海外优青是国家级项目，一旦立项，就不能再逆向申请地方性项目。因此，在申请海外优青项目的同时，也可以考虑申请一些地方性的其它项目。第四，在撰写申请书时，需要精炼关键的科学问题，并考虑研究成果的社会意义，即是否为领域带来了新的研究方向。此外，未来的研究工作不能完全脱离申请者现有的工作，需要在原有研究工作的基础上进行创新。最后，杲祥文教授建议，在完成申请书撰写后，将其发送给同门或者大同行（稍远领域的专业同行），以收集修改意见。</p>
+                </div>
+
+                <div style="background-image: url(./assets/img/academic/professor/img_5.png);height:400px;background-size:cover;background-position:center"></div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【观众问答】</h3>
+                    <p>杲祥文教授回答了大家关心的项目申请时间线问题。具体来说，许多高校会在每年年底举行青年论坛，这可以视为海外优青的初期面试和筛选，因此，在博士后第二年时可以联系高校。海外优青的申请书提交时间是每年四月中旬。一般情况下，申请书先由学校进行形式审查，然后在四月15日左右正式提交申请，遴选结果通常在十二月左右公布。自2023年起，海外优青申请增加了面试环节。对于进入第一轮的候选人，需要录制视频进行第二轮面试和筛选。</p>
+                    <p>随后，听众询问了申报方向的名额限制，陈连民教授和杲祥文教授也分享了自己的经历和见解：虽然没有官方数据证实，但据说一些国家会将名额向比较重要的、急需提升的领域倾斜，如半导体、微电子。具体的名额数量和倾斜程度并没有明确的答案。</p>
+                    <p>一名国外CSC资助博士生提出了关于博士毕业后多久可以申请海外优青的疑问。陈连民教授分享了自己的经历——本硕连读，随后在荷兰取得了博士学位，在博士后几个月后开始了申请。陈连民教授提到，项目评委会重点考量申请者的潜力和已有的学术声誉。杲祥文教授补充道，目前的申报指南要求申请者必须具有至少三年的海外研究经历，海外博士正常毕业时通常会自动满足此条件，而国内博士则需要在海外进行至少三年的博士后研究。最后，陈连民教授建议，如果有回国意向，可尽早着手准备、实施。</p>
+                    <p>对于是否需要有大团队做依托的问题，两位教授解释了加入大团队与独立团队之间的区别。作为独立研究者，可以做自己的老板，拥有更大的发挥空间；大团队则可能具有更广泛的资源和人脉，可利用的资源更多，两者各有利弊。在回答如何选择高校的问题时，陈连民教授表示，可以结合自己的家乡地点和研究领域，设定意向院校的地域、类型等条件。</p>
+                    <p>一位伦敦国王学院医学院博士生提出关于三年海外经历的问题。陈连民教授明确指出，三年的海外博士后工作经历并非强制要求达到36个月，如果申请人和申请材料非常出色，也可以获得破格录取。杲祥文教授强调了联系学校是最佳的方法。在回应关于临床医学博士规培和申报海外优青项目先后顺序的问题时，陈连民教授分享了他个人在入职南京医科大学第一临床学院的经历，讲述了他在获得项目资助后如何克服挑战，平衡临床和科研工作的历程。最后，陈连民教授还特别提到了团队合作在科研工作中的重要性。</p>
+                </div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【3月2日 第二场】</h3>
+                    <ul style="text-align:center; font-size: 16px; padding-left: 0px; margin-bottom: 40px;">
+                    <p>嘉宾：</p>
+                    <p>广东工业大学——李贤辉教授</p>
+                    <p>华南理工大学——申志超教授</p>
+                    <p>研究领域：生态环境与资源、海洋科学与工程</p>
+                    </ul>
+                </div>
+
+                <div style="background-image: url(./assets/img/academic/professor/img_6.png);height:400px;background-size:cover;background-position:center"></div>
+
+                <p> </p>
+
+                <div style="background-image: url(./assets/img/academic/professor/img_7.png);height:400px;background-size:cover;background-position:center"></div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【李贤辉教授分享】</h3>
+                    <p>李贤辉教授首先结合了交叉学科的特点和发展历程，讲述了项目申请书的整体写作和申请的技巧。首先，在确定项目题目和拟开展的研究题目时，通过具体对比不同的题目在长度、具体性、逻辑性、与现有工作的相关性、未来研究的延续性方面的优劣，李贤辉教授建议选择相对宽泛的题目。其次，不同的代码会匹配不同的评审专家，也会影响函评和会评的结果，因此，应选择未来加入团队最优势的代码。李贤辉还提醒申请人，考虑到后期评选，在大学科下，要尽量避免在本团队或本学院内存在申请方向的冲突，同团队的申请人要服从团队的整体安排，可以将申请方向分散在不同的小分项上，以提高评选的竞争力。</p>
+                    <p>随后，李贤辉教授通过模板详细指导了申请书每个部分的写作结构、思路和内容。他认为，摘要应确保思路和逻辑的清晰，在快速地明确研究的重要性后，提出关键的科学问题。在简历方面，他建议除了列出代表作以外，还要提高文章的多样性，可以根据文章的重要性进行排序，但不要过于依赖某一篇论文，也要避免罗列过多来自同一个期刊的文章。同时，简历还应体现合作的广泛性。在正文部分，李贤辉教授强调，写作的关键包括清晰的框架、突出的重点和创新点。不仅要体现出拟开展研究工作的延续性和重要性，还要彰显个人特色，展现其在细分领域中的重要性。</p>
+                </div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【申志超教授分享】</h3>
+                    <p>通过解读函评内容，包括教育、学术与科研工作经历、已取得的成果及贡献、发展潜力等，申志超教授详细、全面地介绍了海外优青项目的申报标准和要点。他阐述了申请人的学术成就和专职回国研究工作的重要性，并分享了撰写申请书需要注意的事项。首先，题目不宜过长，且创新成果的描述动词要用得合宜，与实际内容相符。第二，合理分配字数，根据已有的研究凝练两到三个创新成果，每个成果要突出不同的创新点，同时确保成果之间联系紧密，以提高整体性、条理性。第三，要联系国家的重大需求，以说明开展工作的重要性。申志超教授还强调，要体现现有工作和未来开展工作之间的联系，以及未来工作的递进性、发展性。</p>
+                    <p>申志超教授还结合自己的申请经历，对海外优青申请书的结构和内容提出了一些中肯、合理的建议，特别是在撰写正文时，如何利用清晰的内在逻辑，更好地展示研究成果，以支撑自己的申请。申志超教授建议，首先应简要地明确研究背景、挑战和不足，随后提出创新成果，包括解决的问题，建立的方法或理论模型。在描述创新点时，要具体、聚焦、易理解。此外，要展示自己在研究过程中的贡献，强调研究成果的应用和影响力，并提供相关证据。申志超教授还阐述了撰写全职回国（来华）后拟开展的研究工作时的要点，包括清晰的规划和逻辑、高效的表达、有说服力研究意义和重要性等。</p>
+                </div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【观众问答】</h3>
+                    <p>就学校排名对海外优青申请的影响，李贤辉教授和申志超教授一致认为，应具体问题具体分析。虽然更好的平台意味着更丰富的资源，但所在团队内的资源分配和对个人的支持更为重要。因此，需要结合学校排名、在领域内的影响力和团队等多个方面，综合考量。此外，在海外优青申请中，申请人的个人能力和所在团队对个人的支持因素要大于其留学、访学国家的因素。申志超教授进一步建议博士生积极与领域内的前辈和专家交流，探讨学术问题，寻找潜在的合作机会，如发表高质量的研究成果等。</p>
+                    <p>随后，一位计算机专业的博士生询问代表作的数量问题。申志超教授表示，不同专业对代表作和数量的界定方式各不相同，关键在于申请者如何叙述自己的创新成果，并确保成果的质量。此外，申请者需要根据不同专业的要求，合理选择匹配的期刊或会议论文。</p>
+                    <p>关于项目题目是否应偏向于过去、现在或未来的研究，李贤辉教授认为，未来的研究是以往工作的延续和发展，所以研究方向应全面涵盖这三者。申志超教授也结合了自己的申报内容对此进行了进一步说明。在选择代表作时，不同研究领域有不同的偏好。李贤辉教授建议以研究性文章为主，非必要（如顶刊、顶刊的大子刊等）应避免综述类文章。在申请前的准备完成度方面，李贤辉教授表示可以多次申请，逐渐打磨项目书，并在之后的申请中进一步延续成果，如果需要，也可以更换团队。</p>
+                    <p>一名岩土工程方向博士生询问在满足了论文代表作的质量和数量的基本要求后，如何从其他方面提高自己的学者辨识度，特别是在参与主持的项目或获得奖项方面。李贤辉教授认为参与主持的项目越多，有代表性的奖项越丰富，对申请越有利。申志超教授补充说，数量是一个相对的概念，考虑到各个国家奖项设立的情况不同，申请时应力争做到突出。此外，可以通过恰当的用词，凸显成果的重要性和影响力。</p>
+                    <p>在交叉学科研究代表作的布局方面，李贤辉教授分享了自己的经历，并建议选择与申请方向、学校和团队更加契合的领域文章。申志超教授进一步给出了一些处理交叉领域的可行的方式，如将不同的方向整合，体现研究的全面性。如果领域相差较大，则需要从中做出取舍。</p>
+                </div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【活动总结】</h3>
+                    <p>在杰青会海外优青经验分享线上系列讲座中，来自南京医科大学的陈连民教授、上海交通大学的杲祥文教授、广东工业大学的李贤辉教授、华南理工大学的申志超教授向众多学生、学者们分享了他们在“海外优青”项目申请方面的宝贵经验和职业发展历程，通过线上交流和互动，为参会者解答疑惑。参会者积极互动，获益匪浅。</p>
+                    <p>本活动为系列讲座，我们将涵盖更多的研究领域，敬请期待！</p>
+                </div>
+                </div>
+            </div>
+
+
+
+
+        <div class="col-md-4">
+            <div class="sticky-top">
+                <h5 class="font-weight-bold spanborder"><span>从博后到教授</span></h5>
+                <ol class="list-featured">
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./academic-professor1.html.html" class="text-dark">活动回顾 | 杰青会海外优青经验分享讲座</a>
+                    </h6>
+                    <p class="text-muted">
+                         国家自然科学基金优秀青年科学基金（海外）项目（以下简称“海外优青”项目），旨在吸引和鼓励海外优秀青年人才回国（来华）工作，备受海外广大博士后与青年学者的关注。为贯彻促进交流合作，实现支持职业发展的宗旨，杰青会于2024年2月24日和3月2日举办了两场海外优青经验分享线上讲座。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./professor2.html" class="text-dark">杰青会基金申请经验分享讲座——对话贺唯教授</a>
+                    </h6>
+                    <p class="text-muted">
+                         为了帮助广大青年学者更全面地了解基金申请相关信息与技巧，以应对申请过程中的各种挑战，提高成功率，杰青会于4月28日成功举办了一场精彩的Research Fellowship申请经验分享讲座。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./professor3.html" class="text-dark">UKRI Future Leaders Fellowship申请经验分享</a>
+                    </h6>
+                    <p class="text-muted">
+                         为了帮助广大青年学者更全面地掌握UKRI Future Leaders Fellowship申请的技巧与窍门，以应对申请过程中的各种挑战，提高成功率，杰青会将于6月23日举办一场精彩的UKRI Future Leaders Fellowship申请经验分享讲座。我们非常荣幸地邀请到了英国伦敦布鲁内尔大学王新颜研究员与大家分享他在申请UKRI Future Leaders Fellowship时的宝贵经验。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="" class="text-dark">敬请期待</a>
+                    </h6>
+                    <p class="text-muted">
+
+                    </p>
+                    </span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-4 pb-4">
+    <div class="border p-5 bg-lightblue">
+        <div class="row justify-content-between">
+            <div class="col-md-6">
+                <h5 class="font-weight-bold secondfont">加入我们</h5>
+                加入会员即刻获取最新活动内容！
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <button type="submit" class="btn btn-success btn-block">联系我们</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->
+
+<!--------------------------------------
+FOOTER
+--------------------------------------->
+<div class="container mt-5" style="margin-bottom: -50px">
+	<section class="container-wrap alternate-color" style="background-image: url(assets/img/bg.png); position: relative; background-repeat: no-repeat; background-attachment: scroll; background-size: cover; padding-top: 40px; padding-bottom: 40px;">
+		<div class="section-container container">
+			<div class="vc_row wpb_row vc_row-fluid row vc_row-has-fill">
+				<div class="wpb_column vc_column_container vc_col-sm-12">
+					<div class="vc_column-inner" style="margin-left: 45px">
+						<div class="wpb_wrapper">
+							<div class="kleo_text_column wpb_text_column wpb_content_element">
+								<div class="wpb_wrapper">
+									<h5 class="font-weight-bold ">合作伙伴</h5>
+								</div>
+							</div>
+							<div class="vc_row wpb_row vc_inner vc_row-fluid justify-content-center" style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 310px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919376101 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="http://www.ciic.com.cn/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="232" height="72" src="assets/img/logo/zhongzhi.png" class="vc_single_image-img attachment-full" alt="" title="中智集团">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 240px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919362236 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="https://www.sparkxmarketing.com/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="220" height="82" src="assets/img/logo/sparkx.png" class="vc_single_image-img attachment-full" alt="" title="SPARKX">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919388155 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/zhongying.jpg" class="vc_single_image-img attachment-full" alt="" title="中英科技峰会">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919402009 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="http://www.bici.org/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/beijing.png" class="vc_single_image-img attachment-full" alt="" title="BICI">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1593811100001 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/quanyingxuelian.png" class="vc_single_image-img attachment-full" alt="" title="全英学联">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1593811669126" style="display: flex; flex-wrap: wrap;">
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+
+
+<div class="container mt-5">
+	<footer class="bg-dark text-white p-4 small">
+		<div class="row no-gutters">
+			<div class="col-md-2">
+				<h6>微信</h6>
+				<img src="assets/img/wechat/QRcode.png" alt="WeChat QR Code" style="max-width:120px;">
+			</div>
+			<div class="col-md-2">
+				<h6>微信公众号</h6>
+				<img src="assets/img/wechat/wechatqr.jpg" alt="WeChat Public QR Code" style="max-width:120px;">
+			</div>
+			<div class="col-md-4">
+				<h6>联系方式</h6>
+				<p><strong>英国杰出青年人才协会</strong><br>
+					电子邮箱：info@oyss.org.uk<br>
+					官方网站：www.oyss.org.uk<br>
+					官方微信：OYSSUK<br>
+
+			</div>
+			<div class="col-md-4">
+				<h6>Contact Us</h6>
+				<p><strong>OYSS</strong><br>
+					Email：info@oyss.org.uk<br>
+					Official Website:www.oyss.org.uk<br>
+					Official WeChat:OYSSUK<br>
+
+			</div>
+		</div>
+		<div class="row mt-4 text-center">
+			<div class="col-12">
+				<p>Copyright &copy;OYSS</p>
+				<p>Managed by 英国杰出青年人才协会</p>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<style>
+	/*body, html {*/
+	/*	margin: 0;*/
+	/*	padding: 0;*/
+	/*	width: 100%;*/
+	/*}*/
+	footer {
+		background-color: #000;
+		color: #fff;
+		width: 100%;
+		padding: 20px 0;
+	}
+	footer h6 {
+		color: #fff;
+	}
+	footer img {
+		background-color: #fff; /* If you need to make QR code background white */
+	}
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+	.row.no-gutters {
+		margin: 0;
+	}
+</style>
+
+<!-- End Footer -->
+
+<!--------------------------------------
+JAVASCRIPTS
+--------------------------------------->
+<script src="./assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/functions.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var $carousel = $('.image-carousel');
+        $carousel.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            var total = slick.slideCount;
+            $('.slick-dots').html('<li>' + i + '/' + total + '</li>');
+        });
+        $carousel.slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>'
+        });
+    });
+</script>
+</body>
+</html>

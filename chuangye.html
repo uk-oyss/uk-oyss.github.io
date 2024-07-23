@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon.ico">
+    <link rel="icon" type="image/png" href="./assets/img/newdunhui.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>英国杰出青年人才协会- OYSS</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link href="./assets/css/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <style>
+        .slick-prev, .slick-next {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.75;
+            transition: opacity 0.2s ease;
+        }
+
+        .slick-prev:hover, .slick-next:hover {
+            opacity: 1;
+        }
+
+        .slick-prev {
+            left: 10px;
+            z-index: 1000;
+        }
+
+        .slick-next {
+            right: 10px;
+            z-index: 1000;
+        }
+
+        .slick-prev:before, .slick-next:before {
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            font-size: 24px;
+        }
+
+        .slick-prev:before {
+            content: '\f104';  /* FontAwesome icon for left arrow */
+        }
+
+        .slick-next:before {
+            content: '\f105';  /* FontAwesome icon for right arrow */
+        }
+
+        .slick-slide {
+            position: relative;
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 1000;
+        }
+
+        .slick-dots li {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!--------------------------------------
+NAVBAR
+--------------------------------------->
+<nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+<div class="container">
+	<a class="navbar-brand" href="./index.html"><img height="50" width="55" src="assets/img/newdunhui.jpg"><strong>英国杰出青年人才协会</strong></a>
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarColor02" style="">
+		<ul class="navbar-nav mr-auto d-flex align-items-center">
+			<li class="nav-item hander_nav_li">
+				<a class="nav-link" href="./aboutus.html">关于杰青会 </a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					我与杰青会
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="./zuzhijiagou.html">组织架构</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="./join-membership.html">成为执委</a>
+					<a class="dropdown-item" href="./join.html">成为会员</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" aria-haspopup="true" aria-expanded="false">
+					观往知新
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="./article.html">杰青奖</a>
+					<a class="dropdown-item" href="./article-xiajiguiguoxing.html">归国行</a>
+					<a class="dropdown-item" href="./chuangjijin.html">创基金</a>
+					<a class="dropdown-item" href="./category-bigtalk1.html">Big Talk</a>
+					<a class="dropdown-item" href="./academic-teaching1.html">第一份教职</a>
+					<a class="dropdown-item" href="./academic-professor1.html">博后到教授</a>
+					<a class="dropdown-item" href="./chuangye.html">学界之外</a>
+					<a class="dropdown-item" href="./join-membership.html">合作活动</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./index.html">搜索更多</a>
+			</li>
+		</ul>
+		<ul class="navbar-nav ml-auto d-flex align-items-center">
+			<li class="nav-item highlight">
+				<a class="nav-link" href="./index.html">Sign in</a>
+			</li>
+		</ul>
+	</div>
+
+
+</div>
+</nav>
+<!-- End Navbar -->
+
+<!--------------------------------------
+Main
+--------------------------------------->
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-8">
+            <h5 class="font-weight-bold spanborder"><span>学界之外：创业专题</span></h5>
+            <div class="card border-0 mb-5 box-shadow">
+                <div style="background-image: url(./assets/img/career/img.png); height: 700px; background-size: cover; background-repeat: no-repeat;"></div>
+                <div class="card-body">
+                    <h2 class="card-title font-weight-bold">活动回顾 | 创业专题——「学界之外」论坛第一期 PhD Careers in STEM</h2>
+                    <p class="card-text">
+                        2024年4月13日下午，【学界之外】创业论坛如期举行，获得了超过60位观众的参与度，大家热情满满，对活动给予高度评价。下面我们总结了三位学长带来的在自己创业过程中积累的经验，和大家分享，以供各位对于创业有兴趣的同学参考。主持人郝泓清问了三位嘉宾在创业过程中大家都会感兴趣的问题，三位学长也倾囊相授，为大家传授了自身创业道路上的宝贵经验。
+                    </p>
+
+                    <div style="background-image: url(./assets/img/career/img_1.png);height:380px;background-size:cover;background-position:center"></div>
+
+
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">嘉宾分享</h3>
+                    <ul style="text-align:center; font-size: 16px; padding-left: 0px; margin-bottom: 40px;">
+                        <p><strong>汪之涵博士</strong></p>
+                        <p><strong>青铜剑科技股份有限公司董事长</strong></p>
+                    </ul>
+                    <h5>圆桌论坛</h5>
+                    <p>Q: 您何时以及如何产生创业想法？</p>
+                    <p>A: 我刚到剑桥时便开始关注创业资讯，尤其关注比亚迪的王传福。在英国留学期间，参与了创业组织和比赛，结交了许多志同道合的人。在博士快毕业时，我和同事们已经有了一定的产品开发和市场调研基础，因此决定创业。最终，在2008年，我正式踏上了创业之路。</p>
+                    <p></p>
+                    <p>Q: 您第一笔投资是如何获取的？</p>
+                    <p>A: 在2010年，我得到了第一笔投资，来自于几位清华大学校友组织帮忙联系到的资深天使投资人，他们也是我的学长。我在英国剑桥大学的创业课程中学到，创业初期更多依赖三个主要因素：家人、朋友和早期投资者。这种策略有助于缓解初期的财务压力，为后续发展打下基础。而随着企业成熟，当然就需要专业的投资支持。</p>
+                    <p></p>
+                    <p>Q: 您有什么样的企业管理心得，是如何学习企业管理技能的？</p>
+                    <p>A: 企业管理对于创始人来说确实是个挑战，特别是对博士毕业的创业者而言，管理需要不断地适应变化的环境。随着公司的成长，在不同的阶段也需要采取不同的管理策略，而创始人则需要持续学习、总结经验，并激励团队成员，以最大限度地发挥大家的潜力。成功的企业背后往往有天赋、洞察力和同理心的支撑。当然，在具体操作层面，挑战可以包括吸引合适的人才、将他们置于合适的岗位，以及评估和考核他们的表现。从战略的角度来看，关键在于想明白一个核心问题：团队成员为何愿意参与并跟随领导者。此外，我认为沟通交流和真诚待人同样至关重要。尽管学生组织和社会团体的参与可以带来一些管理和交流技能，但真正关键的学习还是来源于实践中的经验总结。无论学术背景多么深厚，真正的领导能力和人际交往技巧最终还是需要在现实挑战中不断地磨练才能提高。</p>
+                    <div style="background-image: url(./assets/img/career/img_2.png);height:380px;background-size:cover;background-position:center"></div>
+                    <p></p>
+                    <h5>观众问答</h5>
+                    <p>Q: 如何寻找联合创始人和优秀人才？</p>
+                    <p>A: 根据我的个人经验，由于创业之前工作经验不多，因此只能在同学中寻找合作伙伴，包括剑桥的校友，而且我们到现在还在持续合作。选择熟悉的合作伙伴风险较小，同时，寻找视野较广的伙伴非常重要，因为团队成员的格局往往决定了企业的发展潜力。可以这么说，科研、沟通和交流能力很重要，但更关键的是找到能默契配合的长期合作伙伴。</p>
+                    <p></p>
+                    <p>Q: 如何看待创赛和创业的关系？</p>
+                    <p>A: 我的公司青铜剑科技不仅从事芯片业务，还承办了英国赛区等国际创新创业大赛。参加这类比赛虽然不是企业成功的唯一因素，但在条件允许下还是很有价值的。创业大赛可以给大家提供最新d额创业资讯、奖金和投资机会，同时促进团队交流和学习。所以大家有机会参与的话，对于获得更多表现自己和争取融资的机会是有帮助的，也可以多多学习。</p>
+                    <p></p>
+
+                    <h5>创业寄语</h5>
+                    <p>“大家也经常会说一句话是选择比努力更重要。当然了，选择和努力到底哪个是最重要的，我觉得不好说，但是可能对于。各位同学来讲，我觉得做一个正确的判断和正确的选择，说是非常重要的。包括自己毕业之后到底是从事什么方向，是不是一定创业，还是干其他事情，要想好。第二个就是如果确定要创业的话，具体要做什么方向怎么去做，我觉得这个也需要去想好，所以我感觉可能相比于这个。体力上的勤奋来讲，更加勤奋的去动脑筋去思考去判断，去交流，我觉得是非常重要的。谢谢。”</p>
+
+
+
+                    <ul style="text-align:center; font-size: 16px; padding-left: 0px; margin-bottom: 40px;">
+                        <p><strong>孟巍博士</strong></p>
+                        <p><strong>启迪控股英国公司董事</strong></p>
+                    </ul>
+                    <h5>圆桌论坛</h5>
+                    <p>Q: 您后来是怎么想到在投资这个方向去工作？</p>
+                    <p>A: 毕业时有机会，虽然一直对创业感兴趣，但与两位校友不同，我的博士项目本来目标是产品化。但由于各种原因，项目逐渐偏向科学研究。博士毕业后，不太愿意继续从事研究或者当一位学者，正好启迪公司与剑桥大学合作投资，于是我就选择了投资方向。</p>
+                    <p></p>
+                    <p>Q: 作为一个投资人来讲，您会更加的看重一个初创企业的哪一方面，然后愿意去给他们投资呢？</p>
+                    <p>A: 在早期投资阶段，往往很难完全了解一个项目。因此，我们会从多个维度进行评估，包括团队素质、技术、股权结构和财务状况等。团队是最重要的因素，要选择可靠的团队，我们会评估他们在专业领域的水平和经验。如果是大学转化的项目，会更加注重技术前景和团队的历史成就。总的来说，在早期投资中，人才是最关键的因素，因为他们是公司或组织的基本单元，当然其他因素也很重要，但我们会更重视团队一些。</p>
+                    <p></p>
+                    <p>Q: 您认为企业投资面临最大的困难与挫折是什么？</p>
+                    <p>A: 2019年，我们积极开发科技园区，但遭遇了一系列挑战。问题出在一栋实验楼上，它是与圣三一合作的生命科技创新中心。我们尝试与英美的运营方合作，但最终合作还是破裂了，这时候离交付仅剩三个月的时间。我们的团队缺乏经验，因此压力很大，但最后我们还是决定要全力解决问题。我们聚焦解决方案，招聘所需人才，利用全球创新网络和剑桥资源互补优势，最终成功交付了这个项目，提供了独特的产品，比如提供科学家拎包入住的实验室酒店。这些产品在市场上反响强烈，为投资人带来了新的吸引力，也是一个很成功的案例。</p>
+                    <div style="background-image: url(./assets/img/career/img_3.png);height:380px;background-size:cover;background-position:center"></div>
+                    <p></p>
+                    <h5>观众问答</h5>
+                    <p>Q: 如何判断自己的合伙人是否合适？</p>
+                    <p>A: 在企业发展过程中，特别是在科技创新领域，合伙人之间的变动是很常见的，比如一些最初专注技术的合伙人可能会被替换。如何评判合伙人是否适合，这个取决于你的感觉，因为信任至关重要。创业就像把所有鸡蛋放在一个篮子里，你必须对合伙人充满信任。如果你开始对合伙人失去信任，那可能就意味着关系开始破裂。</p>
+                    <p></p>
+                    <p>Q: 如何获得融资？</p>
+                    <p>A: 融资的时机取决于企业的具体情况。如果企业有稳定的盈利和良好的现金流，可能并不需要融资。但对于科技创新型企业而言，通常在初期阶段就需要资金支持，因为这些项目往往无法立即产生盈利。因此总的来说呢，融资的需求主要取决于企业的发展计划和资金需求。</p>
+                    <p></p>
+
+                    <h5>创业寄语</h5>
+                    <p>”职业发展没有什么定势，每个人的生活展开也没有什么定势，每个人的要素禀赋和性格也都不一样，所以我觉得大家要根据自己的特点去做事，比如有的人比较适合谋定而后动，先把很多事都考虑清楚然后再做，有些人就是适合先做了再说。那什么样的人适合创业，有可能后者更适合一点，但也都不一定。我觉得大家了解自己最重要，要了解清楚自己是什么样的人，更适合什么样的发展，不要觉得很多事情往后都是有一个定式的，并没有定式，尤其是离开了学校到社会里面，事情的发展在社会里是一个非常巨大的非线性的系统。很多时候，你把事情做到最好选择做到最好，但有可能发现最后很多东西就是命。所以就放手去做吧！想做什么就放手去做吧！“</p>
+
+                    <ul style="text-align:center; font-size: 16px; padding-left: 0px; margin-bottom: 40px;">
+                        <p><strong>邓远博博士</strong></p>
+                        <p><strong>睿维视科技有限公司创始人</strong></p>
+                    </ul>
+                    <h5>圆桌论坛</h5>
+                    <p>Q: 您在读博期间是何时产生了创业的想法？</p>
+                    <p>A: 我在剑桥大学读书时就开始思考如何将学到的技术转化为实际产品。我所在的学院与企业有频繁的合作，例如捷豹、路虎、华为和中车等。这些合作帮助我深入了解了企业的需求，并认识到我们的技术其实有着很大的应用潜力。最终经过深思熟虑，我选择了创业。因为在我之前与中车合作的项目中，产生了一些创新技术，这些技术具有独特的市场价值。此外，我认为创业可以加速个人成长，尽管也有失败的可能性，但失败是成长的一部分。考虑到这些因素，我就果断决定开始创业。</p>
+                    <p></p>
+                    <p>Q: 您在创业过程中遇到过哪些困难，又是如何应对这些挑战？</p>
+                    <p>A: 我们的创业过程相对还算顺利，不能说面临严重的挑战。但是，管理方面确实是个挑战，需要不断学习。在学校的时候，我们主要与物打交道，但是要与人打交道，就会带来更多问题。举例说吧，我们变成导师后，如何管理博士生？有些学生喜欢摸鱼，也是个挑战吧。在市场营销方面，我们曾经认为产品足够好就可以，但市场推广需要时间，这其实是个工程化的过程。需要从技术转向企业视角，了解行业运作规则，接受现有方法，或寻找专业人士指导。在早期管理和业务拓展中，我们遇到一些问题，但正在逐渐解决。</p>
+                    <p>创业的道路常常充满挑战，每天都面对各种问题，有时候感到沮丧。但偶尔也会有意外的顺利，比如突然接到一个订单。保持良好心态的关键在于以下几点。首先，问自己是否后悔选择创业？我发现在这个过程中学到了很多东西，困难中的学习最有价值。其次，挑战促使成长，锻炼思维和解决问题的能力。最核心的是，我们所做的事业有价值和意义，是行业中的创新，为行业带来价值。所以，即使面对困难，也愿意坚持下去，因为技术能持续产生正面影响。如果只是复制商业模式去赚钱，那么整个过程可能就会失去意义感。</p>
+                    <p></p>
+                    <div style="background-image: url(./assets/img/career/img_4.png);height:380px;background-size:cover;background-position:center"></div>
+                    <p></p>
+                    <h5>观众问答</h5>
+                    <p>Q: 如何有效了解竞争对手和市场的实际需求?</p>
+                    <p>A: 市场调研对于从学校直接创业的同学至关重要。拥有先进技术也需确保符合市场需求，避免浪费技术优势。创业前应确保产品或技术符合市场需求，而非仅凭技术创业。市场调研的方法可以包括：阅读行业研究报告、与行业内公司直接交流，以及参加产业论坛等。这个过程需要投入不少时间和精力，才能有效找到切入点。</p>
+                    <p></p>
+                    <p>Q: 如何快速提高团队管理能力？</p>
+                    <p>A: 管理能力提升需要实践和反思，尤其对科技创业者而言。核心技术重要，但良好管理至关重要。参加CEO培训可以有助于学习解决问题的方法，交流经验。另外也可以寻找有经验的导师来指导团队和人力资源管理，加速学习过程。这些是我对提升管理能力的一些思考和建议。</p>
+                    <p></p>
+
+                    <h5>创业寄语</h5>
+                    <p>”我认为我的看法与另外两位嘉宾相似。首先，对于正从学校步入职场的学弟学妹们，在选择第一份工作时，应优先考虑能够带来最快成长的机会，这一点非常重要。其次，对于很多事情，不必过于深究或看得太严肃。比如，你可以先创业两年再去找工作，或者工作几年后再考虑创业，这些都没有本质的问题。如果你有一个很好的创业想法，并且从各个方面都感觉是时候创业了，那就大胆去做。即使失败了也没关系，毕竟我们都还年轻，年轻本身就是一个巨大的资本。如果想尝试，就应该去尝试。“</p>
+
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">活动总结</h3>
+                    <p>在本次杰青会「学界之外」线上论坛（创业专题）中，青铜剑科技股份有限公司董事长汪之涵博士，启迪控股英国公司董事孟巍博士和 睿维视科技有限公司创始人邓远博博士为大家分享了他们在业界的宝贵经历和创业历程。感谢所有参与者的热情互动和宝贵意见，让本次论坛成为一次内容丰富、启发深刻的交流盛会。另外，感谢中智集团为本次活动提供支持。</p>
+                    <p>请继续关注我们的微信公众号，了解更多相关活动和资讯！</p>
+
+
+                </div>
+            </div>
+        </div>
+
+               <div class="col-md-4">
+            <div class="sticky-top">
+                <h5 class="font-weight-bold spanborder"><span>学界之外</span></h5>
+                <ol class="list-featured">
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./chuangye.html" class="text-dark">创业专题——「学界之外」论坛第一期 PhD Careers in STEM</a>
+                    </h6>
+                    <p class="text-muted">
+                        2024年4月13日下午，【学界之外】创业论坛如期举行，获得了超过60位观众的参与度，大家热情满满，对活动给予高度评价。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./jiuye.html" class="text-dark">就业专题——「学界之外」论坛第一期 PhD Careers in STEM</a>
+                    </h6>
+                    <p class="text-muted">
+                         2024年4月13日，杰青会在线上举办了「学界之外」论坛第一期包括创业专题和就业专题。本次就业专题我们有幸邀请到三位活跃在业界的博士作为嘉宾 – 国际著名能源公司高级管理职位孔德超博士，英国独角兽公司CTO吕鹏博士以及华为海思James Zhan博士与大家分享他们的职业经历和心得。主持人刘郁婧与三位嘉宾们探讨了他们在业界就业的经历以及对于业界就业的看法。
+                    </p>
+                    </span>
+                    </li>
+
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="" class="text-dark">敬请期待</a>
+                    </h6>
+                    <p class="text-muted">
+
+                    </p>
+                    </span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-4 pb-4">
+    <div class="border p-5 bg-lightblue">
+        <div class="row justify-content-between">
+            <div class="col-md-6">
+                <h5 class="font-weight-bold secondfont">加入我们</h5>
+                加入会员即刻获取最新活动内容！
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <button type="submit" class="btn btn-success btn-block">联系我们</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->
+
+<!--------------------------------------
+FOOTER
+--------------------------------------->
+<div class="container mt-5" style="margin-bottom: -50px">
+	<section class="container-wrap alternate-color" style="background-image: url(https://www.doctorateassociation.org/wp-content/uploads/bg.png); position: relative; background-repeat: no-repeat; background-attachment: scroll; background-size: cover; padding-top: 40px; padding-bottom: 40px;">
+		<div class="section-container container">
+			<div class="vc_row wpb_row vc_row-fluid row vc_row-has-fill">
+				<div class="wpb_column vc_column_container vc_col-sm-12">
+					<div class="vc_column-inner" style="margin-left: 45px">
+						<div class="wpb_wrapper">
+							<div class="kleo_text_column wpb_text_column wpb_content_element">
+								<div class="wpb_wrapper">
+									<h5 class="font-weight-bold ">合作伙伴</h5>
+								</div>
+							</div>
+							<div class="vc_row wpb_row vc_inner vc_row-fluid justify-content-center" style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 310px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919376101 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="http://www.ciic.com.cn/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="232" height="72" src="assets/img/logo/zhongzhi.png" class="vc_single_image-img attachment-full" alt="" title="中智集团">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 240px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919362236 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="https://www.sparkxmarketing.com/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="220" height="82" src="assets/img/logo/sparkx.png" class="vc_single_image-img attachment-full" alt="" title="SPARKX">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919388155 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/keji.png" class="vc_single_image-img attachment-full" alt="" title="中英科技峰会">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919402009 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="http://www.bici.org/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/beijing.png" class="vc_single_image-img attachment-full" alt="" title="BICI">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1593811100001 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/quanyingxuelian.png" class="vc_single_image-img attachment-full" alt="" title="全英学联">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1593811669126" style="display: flex; flex-wrap: wrap;">
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+
+
+
+
+<div class="container mt-5">
+	<footer class="bg-dark text-white p-4 small">
+		<div class="row no-gutters">
+			<div class="col-md-2">
+				<h6>微信</h6>
+				<img src="assets/img/wechat/QRcode.png" alt="WeChat QR Code" style="max-width:120px;">
+			</div>
+			<div class="col-md-2">
+				<h6>微信公众号</h6>
+				<img src="assets/img/wechat/wechatqr.jpg" alt="WeChat Public QR Code" style="max-width:120px;">
+			</div>
+			<div class="col-md-4">
+				<h6>联系方式</h6>
+				<p><strong>英国杰出青年人才协会</strong><br>
+					电子邮箱：info@oyss.org.uk<br>
+					官方网站：www.oyss.org.uk<br>
+					官方微信：OYSSUK<br>
+
+			</div>
+			<div class="col-md-4">
+				<h6>Contact Us</h6>
+				<p><strong>OYSS</strong><br>
+					Email：info@oyss.org.uk<br>
+					Official Website:www.oyss.org.uk<br>
+					Official WeChat:OYSSUK<br>
+
+			</div>
+		</div>
+		<div class="row mt-4 text-center">
+			<div class="col-12">
+				<p>Copyright &copy;OYSS</p>
+				<p>Managed by 英国杰出青年人才协会</p>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<style>
+	/*body, html {*/
+	/*	margin: 0;*/
+	/*	padding: 0;*/
+	/*	width: 100%;*/
+	/*}*/
+	footer {
+		background-color: #000;
+		color: #fff;
+		width: 100%;
+		padding: 20px 0;
+	}
+	footer h6 {
+		color: #fff;
+	}
+	footer img {
+		background-color: #fff; /* If you need to make QR code background white */
+	}
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+	.row.no-gutters {
+		margin: 0;
+	}
+</style>
+<!-- End Footer -->
+
+<!--------------------------------------
+JAVASCRIPTS
+--------------------------------------->
+<script src="./assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/functions.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var $carousel = $('.image-carousel');
+        $carousel.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            var total = slick.slideCount;
+            $('.slick-dots').html('<li>' + i + '/' + total + '</li>');
+        });
+        $carousel.slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>'
+        });
+    });
+</script>
+</body>
+</html>

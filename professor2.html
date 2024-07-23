@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon.ico">
+    <link rel="icon" type="image/png" href="./assets/img/newdunhui.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>英国杰出青年人才协会- OYSS</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link href="./assets/css/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <style>
+        .slick-prev, .slick-next {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.75;
+            transition: opacity 0.2s ease;
+        }
+
+        .slick-prev:hover, .slick-next:hover {
+            opacity: 1;
+        }
+
+        .slick-prev {
+            left: 10px;
+            z-index: 1000;
+        }
+
+        .slick-next {
+            right: 10px;
+            z-index: 1000;
+        }
+
+        .slick-prev:before, .slick-next:before {
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            font-size: 24px;
+        }
+
+        .slick-prev:before {
+            content: '\f104';  /* FontAwesome icon for left arrow */
+        }
+
+        .slick-next:before {
+            content: '\f105';  /* FontAwesome icon for right arrow */
+        }
+
+        .slick-slide {
+            position: relative;
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 1000;
+        }
+
+        .slick-dots li {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!--------------------------------------
+NAVBAR
+--------------------------------------->
+<nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+<div class="container">
+	<a class="navbar-brand" href="./index.html"><img height="50" width="55" src="assets/img/newdunhui.jpg"><strong>英国杰出青年人才协会</strong></a>
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarColor02" style="">
+		<ul class="navbar-nav mr-auto d-flex align-items-center">
+			<li class="nav-item hander_nav_li">
+				<a class="nav-link" href="./aboutus.html">关于杰青会 </a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					我与杰青会
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="./zuzhijiagou.html">组织架构</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="./join-membership.html">成为执委</a>
+					<a class="dropdown-item" href="./join.html">成为会员</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" aria-haspopup="true" aria-expanded="false">
+					观往知新
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="./article.html">杰青奖</a>
+					<a class="dropdown-item" href="./article-xiajiguiguoxing.html">归国行</a>
+					<a class="dropdown-item" href="./chuangjijin.html">创基金</a>
+					<a class="dropdown-item" href="./category-bigtalk1.html">Big Talk</a>
+					<a class="dropdown-item" href="./academic-teaching1.html">第一份教职</a>
+					<a class="dropdown-item" href="./academic-professor1.html">博后到教授</a>
+					<a class="dropdown-item" href="./chuangye.html">学界之外</a>
+					<a class="dropdown-item" href="./join-membership.html">合作活动</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./index.html">搜索更多</a>
+			</li>
+		</ul>
+		<ul class="navbar-nav ml-auto d-flex align-items-center">
+			<li class="nav-item highlight">
+				<a class="nav-link" href="./index.html">Sign in</a>
+			</li>
+		</ul>
+	</div>
+
+
+</div>
+</nav>
+<!-- End Navbar -->
+
+<!--------------------------------------
+Main
+--------------------------------------->
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-8">
+            <h5 class="font-weight-bold spanborder"><span>从博后到教授</span></h5>
+            <div class="card border-0 mb-5 box-shadow">
+                <div style="background-image: url(./assets/img/academic/professor/img_8.png);height:400px;background-size:cover;background-position:center"></div>
+                <div class="card-body">
+                    <h2 class="card-title font-weight-bold">活动回顾 | 杰青会基金申请经验分享讲座——对话贺唯教授</h2>
+                    <p class="card-text">
+                        为了帮助广大青年学者更全面地了解基金申请相关信息与技巧，以应对申请过程中的各种挑战，提高成功率，杰青会于4月28日成功举办了一场精彩的Research Fellowship申请经验分享讲座。贺唯教授目前是伦敦国王学院副教授，也是英国国家级人才项目入选者及美国麻省理工学院客座研究员。会上，贺教授与大家分享了他在申请Royal Academy of Engineering Research Fellowship时的宝贵经验，并通过现场交流互动，解答大家的疑问，为青年学者们指点迷津。本次讲座由杰青会学术部刘博涵主持。
+                    </p>
+                </div>
+
+
+                 <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【贺唯教授分享】</h3>
+                    <p>贺唯教授首先介绍了Royal Academy of Engineering Research Fellowship作为一个国家级人才项目，在英国自然及工程科学研究领域内获得了高度认可，强调了其对青年学者职业发展的重要促进作用。Royal Academy of Engineering Research Fellowship与国内的国家自然科学基金优秀青年科学基金相似，旨在选拔英国最杰出的、处于研究职业初期的研究员，通过提供长期资助，培养未来领军学者，引领其研究领域的发展。</p>
+                    <p>申请大体共分为四个阶段，包括校内陪审选拔、工程院初步选拔、同行评审及上会面试选拔，最后全英范围内每年选拔出10-20名的学者，获得为期5年的基金资助。评审过程中，选拔申请者的关键因素包括专业背景、学术成绩、未来研究计划、产业合作以及研究的社会效益。贺唯教授建议，在撰写申请书时，除了专业领域的过往成绩和未来研究计划外，申请者还应突出自己的其他技能，包括学术相关的组织管理能力以及未来领军学者的潜力。这些技能在不同领域中的灵活运用将为申请者增添竞争力。同时，申请者还应当清晰地证明其研究课题的创新性和重要性，以引起评审的关注。此外，在选择研究方向时，需要注意与现有研究的关联性。但也要避免选择过于相似的课题，以体现申请者的独立思考和创新能力。最后，贺教授鼓励申请者在申请过程中积极与学校沟通，了解学校的发展战略和需求，从而帮助申请者更好地匹配学校的研究方向，并获得其在申请过程中的全面支持，包括申请书准备及校内资金资助等，以提升申请的成功率。</p>
+                 </div>
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【观众问答】</h3>
+                    <p>Q:申请Royal Academy of Engineering Research Fellowship是否对年龄有要求？</p>
+                    <p>A:这项Fellowship对年龄的要求要具体参考当年的指南，但通常限制申请者为博士毕业不超过5年。至于过去未被资助的项目是否可以再次提交的问题，建议查阅具体基金指南。如未被资助，建议申请者去广泛和同行与同事交流，以分析、总结未资助的因素，总结经验并提高申请书的质量，提升获得资助的机会。</p>
+                    <p> </p>
+                    <p>Q:项目书的研究方向应该如何选择？</p>
+                    <p>A:申请者应平衡研究的关联性与个人的创新性、独立性，即既要保证前后研究的延续性，又要避免研究方向过于相似。另外，贺教授指导了在课题不同的情况下如何展示学术技能在过往研究课题与未来研究中的可迁移性，以及在同一学科大类下不同课题之间如何体现这些学术技能：若申请者已具备相关能力，则完全可将其迁移、应用于新课题的开展。</p>
+                    <p> </p>
+                    <p>Q:Royal Academy of Engineering Research Fellowship面向哪些学术群体？</p>
+                    <p>A:这项Fellowship主要面向博士后和讲师。至于如何选择申请学校，可以选择所在学校或依托外校进行申请。理论上来说，可以同时向包括RAEng Research Fellowship在内的多个Fellowship（比如UKRI Future Leader Fellowship, ERC Starting Grant等）提交申请，但建议将精力集中于一项申请书，提高成功率。</p>
+                </div>
+
+                <div style="background-image: url(./assets/img/academic/professor/img_9.png);height:400px;background-size:cover;background-position:center"></div>
+
+
+                <div class="card-body">
+                    <h3 style="text-align:center; margin-top: 40px; font-size: 20px;">【活动总结】</h3>
+                    <p>在杰青会本次Research Fellowship申请经验分享讲座活动中，英国伦敦国王学院的贺唯教授作为此基金申请的亲历者，全面、详细地向与会学者们分享了自己在申请Royal Academy of Engineering Research Fellowship时的宝贵经验，为准备申请Fellowship的研究者们提供了极有借鉴性的指导和启示。参会者积极参与线上交流、互动，收获颇丰。</p>
+                    <p>本活动为系列讲座，我们将涵盖更多的研究领域，敬请期待！</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="sticky-top">
+                <h5 class="font-weight-bold spanborder"><span>从博后到教授</span></h5>
+                <ol class="list-featured">
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./academic-professor1.html" class="text-dark">活动回顾 | 杰青会海外优青经验分享讲座</a>
+                    </h6>
+                    <p class="text-muted">
+                         国家自然科学基金优秀青年科学基金（海外）项目（以下简称“海外优青”项目），旨在吸引和鼓励海外优秀青年人才回国（来华）工作，备受海外广大博士后与青年学者的关注。为贯彻促进交流合作，实现支持职业发展的宗旨，杰青会于2024年2月24日和3月2日举办了两场海外优青经验分享线上讲座。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./professor2.html" class="text-dark">杰青会基金申请经验分享讲座——对话贺唯教授</a>
+                    </h6>
+                    <p class="text-muted">
+                         为了帮助广大青年学者更全面地了解基金申请相关信息与技巧，以应对申请过程中的各种挑战，提高成功率，杰青会于4月28日成功举办了一场精彩的Research Fellowship申请经验分享讲座。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="./professor3.html" class="text-dark">UKRI Future Leaders Fellowship申请经验分享</a>
+                    </h6>
+                    <p class="text-muted">
+                         为了帮助广大青年学者更全面地掌握UKRI Future Leaders Fellowship申请的技巧与窍门，以应对申请过程中的各种挑战，提高成功率，杰青会将于6月23日举办一场精彩的UKRI Future Leaders Fellowship申请经验分享讲座。我们非常荣幸地邀请到了英国伦敦布鲁内尔大学王新颜研究员与大家分享他在申请UKRI Future Leaders Fellowship时的宝贵经验。
+                    </p>
+                    </span>
+                    </li>
+                    <li>
+                    <span>
+                    <h6 class="font-weight-bold">
+                    <a href="" class="text-dark">敬请期待</a>
+                    </h6>
+                    <p class="text-muted">
+
+                    </p>
+                    </span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-4 pb-4">
+    <div class="border p-5 bg-lightblue">
+        <div class="row justify-content-between">
+            <div class="col-md-6">
+                <h5 class="font-weight-bold secondfont">加入我们</h5>
+                加入会员即刻获取最新活动内容！
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <button type="submit" class="btn btn-success btn-block">联系我们</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->
+
+<!--------------------------------------
+FOOTER
+--------------------------------------->
+<div class="container mt-5" style="margin-bottom: -50px">
+	<section class="container-wrap alternate-color" style="background-image: url(assets/img/bg.png); position: relative; background-repeat: no-repeat; background-attachment: scroll; background-size: cover; padding-top: 40px; padding-bottom: 40px;">
+		<div class="section-container container">
+			<div class="vc_row wpb_row vc_row-fluid row vc_row-has-fill">
+				<div class="wpb_column vc_column_container vc_col-sm-12">
+					<div class="vc_column-inner" style="margin-left: 45px">
+						<div class="wpb_wrapper">
+							<div class="kleo_text_column wpb_text_column wpb_content_element">
+								<div class="wpb_wrapper">
+									<h5 class="font-weight-bold ">合作伙伴</h5>
+								</div>
+							</div>
+							<div class="vc_row wpb_row vc_inner vc_row-fluid justify-content-center" style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 310px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919376101 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="http://www.ciic.com.cn/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="232" height="72" src="assets/img/logo/zhongzhi.png" class="vc_single_image-img attachment-full" alt="" title="中智集团">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 240px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919362236 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="https://www.sparkxmarketing.com/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="220" height="82" src="assets/img/logo/sparkx.png" class="vc_single_image-img attachment-full" alt="" title="SPARKX">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919388155 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/zhongying.jpg" class="vc_single_image-img attachment-full" alt="" title="中英科技峰会">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1529919402009 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="http://www.bici.org/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/beijing.png" class="vc_single_image-img attachment-full" alt="" title="BICI">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3" style="flex: 1 1 200px; max-width: 160px;">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper">
+											<div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1593811100001 zoomin-shd-singleimg animated animate-when-almost-visible el-fade start-animation">
+												<figure class="wpb_wrapper vc_figure">
+													<a href="" target="_blank" class="vc_single_image-wrapper vc_box_border_grey">
+														<img width="150" height="150" src="assets/img/logo/quanyingxuelian.png" class="vc_single_image-img attachment-full" alt="" title="全英学联">
+													</a>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1593811669126" style="display: flex; flex-wrap: wrap;">
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner">
+										<div class="wpb_wrapper"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+
+
+<div class="container mt-5">
+	<footer class="bg-dark text-white p-4 small">
+		<div class="row no-gutters">
+			<div class="col-md-2">
+				<h6>微信</h6>
+				<img src="assets/img/wechat/QRcode.png" alt="WeChat QR Code" style="max-width:120px;">
+			</div>
+			<div class="col-md-2">
+				<h6>微信公众号</h6>
+				<img src="assets/img/wechat/wechatqr.jpg" alt="WeChat Public QR Code" style="max-width:120px;">
+			</div>
+			<div class="col-md-4">
+				<h6>联系方式</h6>
+				<p><strong>英国杰出青年人才协会</strong><br>
+					电子邮箱：info@oyss.org.uk<br>
+					官方网站：www.oyss.org.uk<br>
+					官方微信：OYSSUK<br>
+
+			</div>
+			<div class="col-md-4">
+				<h6>Contact Us</h6>
+				<p><strong>OYSS</strong><br>
+					Email：info@oyss.org.uk<br>
+					Official Website:www.oyss.org.uk<br>
+					Official WeChat:OYSSUK<br>
+
+			</div>
+		</div>
+		<div class="row mt-4 text-center">
+			<div class="col-12">
+				<p>Copyright &copy;OYSS</p>
+				<p>Managed by 英国杰出青年人才协会</p>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<style>
+	/*body, html {*/
+	/*	margin: 0;*/
+	/*	padding: 0;*/
+	/*	width: 100%;*/
+	/*}*/
+	footer {
+		background-color: #000;
+		color: #fff;
+		width: 100%;
+		padding: 20px 0;
+	}
+	footer h6 {
+		color: #fff;
+	}
+	footer img {
+		background-color: #fff; /* If you need to make QR code background white */
+	}
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+	.row.no-gutters {
+		margin: 0;
+	}
+</style>
+<!-- End Footer -->
+
+<!--------------------------------------
+JAVASCRIPTS
+--------------------------------------->
+<script src="./assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/functions.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var $carousel = $('.image-carousel');
+        $carousel.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            var total = slick.slideCount;
+            $('.slick-dots').html('<li>' + i + '/' + total + '</li>');
+        });
+        $carousel.slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '<button type="button" class="slick-prev"></button>',
+            nextArrow: '<button type="button" class="slick-next"></button>'
+        });
+    });
+</script>
+</body>
+</html>
