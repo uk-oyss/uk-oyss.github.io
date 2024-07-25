@@ -9699,4 +9699,25 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
     text-align: center;
 }
 
+footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 20px 0;
+}
+footer h6 {
+  color: #fff;
+}
+footer img {
+  background-color: #fff; /* If you need to make QR code background white */
+}
+
+.container-footer {
+  width: 100%;
+  padding: 0;
+}
+
+.row.no-gutters {
+  margin: 0;
+}
 
